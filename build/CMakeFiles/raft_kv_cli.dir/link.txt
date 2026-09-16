@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -Wl,--dependency-file=CMakeFiles/raft_kv_cli.dir/link.d CMakeFiles/raft_kv_cli.dir/src/main.cpp.o -o raft_kv_cli  libraft_core.a

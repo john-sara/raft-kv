@@ -18,5 +18,8 @@ include_directories(include)
 
 add_library(raft_core src/node.cpp src/state_machine.cpp src/transport.cpp src/cluster.cpp)
 
+add_executable(raft_kv_cli src/main.cpp)
+target_link_libraries(raft_kv_cli raft_core)
+
 enable_testing()
 add_subdirectory(tests)

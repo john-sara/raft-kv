@@ -185,6 +185,19 @@ raft_core/fast:
 .PHONY : raft_core/fast
 
 #=============================================================================
+# Target rules for targets named raft_kv_cli
+
+# Build rule for target.
+raft_kv_cli: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 raft_kv_cli
+.PHONY : raft_kv_cli
+
+# fast build rule for target.
+raft_kv_cli/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_kv_cli.dir/build.make CMakeFiles/raft_kv_cli.dir/build
+.PHONY : raft_kv_cli/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -325,6 +338,30 @@ src/cluster.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_core.dir/build.make CMakeFiles/raft_core.dir/src/cluster.cpp.s
 .PHONY : src/cluster.cpp.s
 
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_kv_cli.dir/build.make CMakeFiles/raft_kv_cli.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_kv_cli.dir/build.make CMakeFiles/raft_kv_cli.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_kv_cli.dir/build.make CMakeFiles/raft_kv_cli.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 src/node.o: src/node.cpp.o
 .PHONY : src/node.o
 
@@ -418,11 +455,15 @@ help:
 	@echo "... log_entry_test"
 	@echo "... node_test"
 	@echo "... raft_core"
+	@echo "... raft_kv_cli"
 	@echo "... state_machine_test"
 	@echo "... transport_test"
 	@echo "... src/cluster.o"
 	@echo "... src/cluster.i"
 	@echo "... src/cluster.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 	@echo "... src/node.o"
 	@echo "... src/node.i"
 	@echo "... src/node.s"
