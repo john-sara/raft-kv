@@ -19,6 +19,11 @@ Term RaftNode::getCurrentTerm() const {
     return currentTerm_;
 }
 
+int32_t RaftNode::getVotedFor() const {
+    std::lock_guard<std::mutex> lock(nodeMutex_);
+    return votedFor_;
+}
+
 std::chrono::milliseconds RaftNode::getRandomTimeout() const {
     std::lock_guard<std::mutex> lock(nodeMutex_);
     return std::chrono::milliseconds(timeoutDist_(rng_));
@@ -40,6 +45,32 @@ void RaftNode::receiveHeartbeat(Term leaderTerm) {
         state_ = NodeState::Follower;
         votedFor_ = -1;
     }
+}
+
+RequestVoteReply RaftNode::handleRequestVote(const RequestVoteArgs& args) {
+    std::lock_guard<std::mutex> lock(nodeMutex_);
+    RequestVoteReply reply{.term = currentTerm_, .voteGranted = false};
+
+    // Rule 1: Reject votes for outdated terms
+    if (args.term < currentTerm_) {
+        return reply;
+    }
+
+    // Update term if candidate has a higher term
+    if (args.term > currentTerm_) {
+        currentTerm_ = args.term;
+        state_ = NodeState::Follower;
+        votedFor_ = -1;
+    }
+
+    // Rule 2: Grant vote if we haven't voted yet or already voted for this candidate
+    if (votedFor_ == -1 || votedFor_ == static_cast<int32_t>(args.candidateId)) {
+        votedFor_ = static_cast<int32_t>(args.candidateId);
+        reply.voteGranted = true;
+    }
+
+    reply.term = currentTerm_;
+    return reply;
 }
 
 } // namespace raft

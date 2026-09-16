@@ -1,10 +1,10 @@
-Start testing: Sep 15 20:40 CDT
+Start testing: Sep 15 20:46 CDT
 ----------------------------------------------------------
 1/2 Testing: LogEntryTest.BasicEntryCreation
 1/2 Test: LogEntryTest.BasicEntryCreation
 Command: "/home/johns/raft-kv/build/tests/log_entry_test" "--gtest_filter=LogEntryTest.BasicEntryCreation" "--gtest_also_run_disabled_tests"
 Directory: /home/johns/raft-kv/build/tests
-"LogEntryTest.BasicEntryCreation" start time: Sep 15 20:40 CDT
+"LogEntryTest.BasicEntryCreation" start time: Sep 15 20:46 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/johns/raft-kv/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -23,7 +23,7 @@ Note: Google Test filter = LogEntryTest.BasicEntryCreation
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"LogEntryTest.BasicEntryCreation" end time: Sep 15 20:40 CDT
+"LogEntryTest.BasicEntryCreation" end time: Sep 15 20:46 CDT
 "LogEntryTest.BasicEntryCreation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -39,8 +39,8 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"node_test_NOT_BUILT" end time: Sep 15 20:40 CDT
+"node_test_NOT_BUILT" end time: Sep 15 20:46 CDT
 "node_test_NOT_BUILT" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Sep 15 20:40 CDT
+End testing: Sep 15 20:46 CDT

@@ -122,7 +122,8 @@ CMakeFiles/raft_core.dir/src/node.cpp.o: /home/johns/raft-kv/src/node.cpp \
  /usr/include/c++/15/bits/memory_resource.h /usr/include/c++/15/cstddef \
  /usr/include/c++/15/bits/uses_allocator.h \
  /usr/include/c++/15/bits/uses_allocator_args.h /usr/include/c++/15/tuple \
- /usr/include/c++/15/bits/ranges_util.h /usr/include/c++/15/chrono \
+ /usr/include/c++/15/bits/ranges_util.h \
+ /home/johns/raft-kv/include/raft/rpc.hpp /usr/include/c++/15/chrono \
  /usr/include/c++/15/bits/chrono.h /usr/include/c++/15/ratio \
  /usr/include/c++/15/limits /usr/include/c++/15/ctime /usr/include/time.h \
  /usr/include/x86_64-linux-gnu/bits/time.h \

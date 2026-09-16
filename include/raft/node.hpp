@@ -1,5 +1,6 @@
 #pragma once
 #include "types.hpp"
+#include "rpc.hpp"
 #include <chrono>
 #include <random>
 #include <mutex>
@@ -14,10 +15,13 @@ public:
     NodeId getId() const;
     NodeState getState() const;
     Term getCurrentTerm() const;
+    int32_t getVotedFor() const;
 
     void handleElectionTimeout();
     void receiveHeartbeat(Term leaderTerm);
     std::chrono::milliseconds getRandomTimeout() const;
+
+    RequestVoteReply handleRequestVote(const RequestVoteArgs& args);
 
 private:
     NodeId id_;

@@ -1,4 +1,4 @@
-LogEntryTest.BasicEntryCreation 2 0.0016333
+LogEntryTest.BasicEntryCreation 3 0.00121037
 node_test_NOT_BUILT 0 0
 ---
 node_test_NOT_BUILT
