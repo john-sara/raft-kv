@@ -41,7 +41,8 @@ int main() {
                           << " | State: " << stateStr 
                           << " | Term: " << node->getCurrentTerm() 
                           << " | Log Size: " << node->getLogSize()
-                          << " | Commit Index: " << node->getCommitIndex() << "\n";
+                          << " | Commit Index: " << node->getCommitIndex() 
+                          << " | Last Applied: " << node->getLastApplied() << "\n";
             }
             std::cout << "----------------------\n\n";
         } else if (command == "election") {
@@ -56,29 +57,37 @@ int main() {
             std::cin >> leaderId >> key >> val;
 
             auto leader = cluster.getNode(leaderId);
-            if (!leader) {
-                std::cout << "Error: Invalid Node ID.\n";
+            if (!leader || leader->getState() != raft::NodeState::Leader) {
+                std::cout << "Error: Node " << leaderId << " is not the elected Leader.\n";
                 continue;
             }
 
+            raft::Command cmd{.type = raft::CommandType::Put, .key = key, .value = val};
+            
+            // 1. Leader appends entry to its own log locally
+            raft::LogIndex newIndex = leader->propose(cmd);
+
             raft::LogEntry entry{
                 .term = leader->getCurrentTerm(),
-                .index = leader->getLogSize() + 1,
-                .command = {raft::CommandType::Put, key, val}
+                .index = newIndex,
+                .command = cmd
             };
 
+            // 2. Replicate entry across followers
             raft::AppendEntriesArgs args{
                 .term = leader->getCurrentTerm(),
                 .leaderId = leaderId,
-                .prevLogIndex = leader->getLogSize(),
-                .prevLogTerm = leader->getCurrentTerm(),
+                .prevLogIndex = newIndex - 1,
+                .prevLogTerm = 0, // Initial term at log index 0 is 0
                 .entries = {entry},
-                .leaderCommit = leader->getLogSize() + 1
+                .leaderCommit = newIndex
             };
 
             for (size_t i = 1; i <= cluster.getClusterSize(); ++i) {
                 auto node = cluster.getNode(static_cast<raft::NodeId>(i));
-                node->handleAppendEntries(args);
+                if (node->getId() != leaderId) {
+                    node->handleAppendEntries(args);
+                }
                 node->applyCommittedEntries();
             }
 

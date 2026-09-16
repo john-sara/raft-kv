@@ -31,7 +31,7 @@ void Cluster::startElection(NodeId candidateId) {
     candidate->handleElectionTimeout();
     Term currentTerm = candidate->getCurrentTerm();
 
-    size_t votesGranted = 1; // Candidate votes for itself
+    size_t votesGranted = 1;
 
     RequestVoteArgs args{
         .term = currentTerm,
@@ -48,9 +48,9 @@ void Cluster::startElection(NodeId candidateId) {
         }
     }
 
-    // Majority quorum reached -> Become Leader
     if (votesGranted > nodes_.size() / 2) {
-        // Heartbeat all nodes to claim leadership authority
+        candidate->promoteToLeader();
+
         AppendEntriesArgs heartbeat{
             .term = currentTerm,
             .leaderId = candidateId,

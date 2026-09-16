@@ -24,13 +24,16 @@ public:
     size_t getLogSize() const;
 
     void handleElectionTimeout();
+    void promoteToLeader();
     void receiveHeartbeat(Term leaderTerm);
     std::chrono::milliseconds getRandomTimeout() const;
+
+    // Leader entry proposal
+    LogIndex propose(const Command& cmd);
 
     RequestVoteReply handleRequestVote(const RequestVoteArgs& args);
     AppendEntriesReply handleAppendEntries(const AppendEntriesArgs& args);
 
-    // State machine interaction
     std::optional<std::string> getValue(const std::string& key) const;
     size_t applyCommittedEntries();
 
@@ -40,14 +43,10 @@ private:
     int32_t votedFor_{-1};
     NodeState state_{NodeState::Follower};
 
-    // Volatile state on all servers
     LogIndex commitIndex_{0};
     LogIndex lastApplied_{0};
 
-    // Raft log entries
     std::vector<LogEntry> log_;
-
-    // Concrete execution engine
     KeyValueStateMachine stateMachine_;
 
     mutable std::mutex nodeMutex_;

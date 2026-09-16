@@ -22,7 +22,7 @@ events:
     candidate_directories:
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -64,7 +64,7 @@ events:
     searched_directories:
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/uname"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/uname"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/uname"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/uname"
       - "/usr/local/sbin/uname"
       - "/usr/local/bin/uname"
       - "/usr/sbin/uname"
@@ -73,7 +73,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -151,7 +151,7 @@ events:
     candidate_directories:
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -193,7 +193,7 @@ events:
     searched_directories:
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gmake"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gmake"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gmake"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/gmake"
       - "/usr/local/sbin/gmake"
       - "/usr/local/bin/gmake"
       - "/usr/sbin/gmake"
@@ -202,7 +202,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -281,7 +281,7 @@ events:
     candidate_directories:
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -323,7 +323,7 @@ events:
     searched_directories:
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/c++"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/c++"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/c++"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/c++"
       - "/usr/local/sbin/c++"
       - "/usr/local/bin/c++"
       - "/usr/sbin/c++"
@@ -332,7 +332,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -409,7 +409,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -502,7 +502,7 @@ events:
       - "/usr/bin/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -545,7 +545,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -616,7 +616,7 @@ events:
       - "/usr/bin/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -659,7 +659,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -730,7 +730,7 @@ events:
       - "/usr/bin/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -773,7 +773,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -844,7 +844,7 @@ events:
       - "/usr/bin/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -887,7 +887,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -958,7 +958,7 @@ events:
       - "/usr/bin/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1001,7 +1001,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1072,7 +1072,7 @@ events:
       - "/usr/bin/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1115,7 +1115,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1186,7 +1186,7 @@ events:
       - "/usr/bin/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1229,7 +1229,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1300,7 +1300,7 @@ events:
       - "/usr/bin/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1343,7 +1343,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1414,7 +1414,7 @@ events:
       - "/usr/bin/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1456,7 +1456,7 @@ events:
       - "/usr/bin/dlltool"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/dlltool"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/dlltool"
       - "/usr/local/sbin/dlltool"
       - "/usr/local/bin/dlltool"
       - "/usr/sbin/dlltool"
@@ -1499,7 +1499,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1570,7 +1570,7 @@ events:
       - "/usr/bin/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1613,7 +1613,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1684,7 +1684,7 @@ events:
       - "/usr/bin/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1726,7 +1726,7 @@ events:
       - "/usr/bin/tapi"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/tapi"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/tapi"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/tapi"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/tapi"
       - "/usr/local/sbin/tapi"
       - "/usr/local/bin/tapi"
       - "/usr/sbin/tapi"
@@ -1769,7 +1769,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1843,7 +1843,7 @@ events:
       - "/usr/bin/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1885,7 +1885,7 @@ events:
       - "/usr/bin/gcc-ar-15.2"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-15.2"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-15.2"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gcc-ar-15.2"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/gcc-ar-15.2"
       - "/usr/local/sbin/gcc-ar-15.2"
       - "/usr/local/bin/gcc-ar-15.2"
       - "/usr/sbin/gcc-ar-15.2"
@@ -1928,7 +1928,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2002,7 +2002,7 @@ events:
       - "/usr/bin/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -2044,7 +2044,7 @@ events:
       - "/usr/bin/gcc-ranlib-15.2"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-15.2"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-15.2"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gcc-ranlib-15.2"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/gcc-ranlib-15.2"
       - "/usr/local/sbin/gcc-ranlib-15.2"
       - "/usr/local/bin/gcc-ranlib-15.2"
       - "/usr/sbin/gcc-ranlib-15.2"
@@ -2087,7 +2087,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2144,8 +2144,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-GUh7n4"
-      binary: "/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-GUh7n4"
+      source: "/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-6asxt0"
+      binary: "/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-6asxt0"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2155,13 +2155,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-GUh7n4'
+        Change Dir: '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-6asxt0'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9cdd4/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_9cdd4.dir/build.make CMakeFiles/cmTC_9cdd4.dir/build
-        gmake[1]: Entering directory '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-GUh7n4'
-        Building CXX object CMakeFiles/cmTC_9cdd4.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_9cdd4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9bfa7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9bfa7.dir/build.make CMakeFiles/cmTC_9bfa7.dir/build
+        gmake[1]: Entering directory '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-6asxt0'
+        Building CXX object CMakeFiles/cmTC_9bfa7.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_9bfa7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -2171,8 +2171,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9cdd4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9cdd4.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9cdd4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccKd0Fbe.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9bfa7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9bfa7.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9bfa7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccf0TCWB.s
         GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -2193,14 +2193,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: b661a74662ad7cf413c4193391ab5290
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9cdd4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9cdd4.dir/'
-         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_9cdd4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccKd0Fbe.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9bfa7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9bfa7.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_9bfa7.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccf0TCWB.s
         GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9cdd4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9cdd4.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_9cdd4
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cdd4.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9bfa7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9bfa7.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_9bfa7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bfa7.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper
@@ -2213,14 +2213,14 @@ events:
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9cdd4' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9cdd4.'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6pXAfO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9cdd4 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9cdd4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9bfa7' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9bfa7.'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpXbP0N.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9bfa7 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9bfa7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         collect2 version 15.2.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6pXAfO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9cdd4 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9cdd4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpXbP0N.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9bfa7 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9bfa7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9cdd4' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9cdd4.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_9cdd4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9cdd4
-        gmake[1]: Leaving directory '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-GUh7n4'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9bfa7' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9bfa7.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_9bfa7.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9bfa7
+        gmake[1]: Leaving directory '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-6asxt0'
         
       exitCode: 0
   -
@@ -2261,13 +2261,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-GUh7n4']
+        ignore line: [Change Dir: '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-6asxt0']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9cdd4/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_9cdd4.dir/build.make CMakeFiles/cmTC_9cdd4.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-GUh7n4']
-        ignore line: [Building CXX object CMakeFiles/cmTC_9cdd4.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_9cdd4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9bfa7/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_9bfa7.dir/build.make CMakeFiles/cmTC_9bfa7.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-6asxt0']
+        ignore line: [Building CXX object CMakeFiles/cmTC_9bfa7.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_9bfa7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -2277,8 +2277,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9cdd4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9cdd4.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9cdd4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccKd0Fbe.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9bfa7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9bfa7.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9bfa7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccf0TCWB.s]
         ignore line: [GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -2299,14 +2299,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: b661a74662ad7cf413c4193391ab5290]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9cdd4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9cdd4.dir/']
-        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_9cdd4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccKd0Fbe.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9bfa7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9bfa7.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_9bfa7.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccf0TCWB.s]
         ignore line: [GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9cdd4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9cdd4.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_9cdd4]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cdd4.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9bfa7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9bfa7.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_9bfa7]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bfa7.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper]
@@ -2319,13 +2319,13 @@ events:
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9cdd4' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9cdd4.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6pXAfO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9cdd4 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9cdd4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9bfa7' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9bfa7.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpXbP0N.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9bfa7 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9bfa7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc6pXAfO.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccpXbP0N.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -2343,7 +2343,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_9cdd4] ==> ignore
+          arg [cmTC_9bfa7] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
@@ -2358,7 +2358,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_9cdd4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_9bfa7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -2369,7 +2369,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 15.2.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6pXAfO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9cdd4 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9cdd4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpXbP0N.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9bfa7 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9bfa7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -2432,7 +2432,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2519,7 +2519,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2627,7 +2627,7 @@ events:
       - "/usr/bin/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -2686,7 +2686,7 @@ events:
       - "/usr/bin/gcc-ar-15.2"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-15.2"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-15.2"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gcc-ar-15.2"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/gcc-ar-15.2"
       - "/usr/local/sbin/gcc-ar-15.2"
       - "/usr/local/bin/gcc-ar-15.2"
       - "/usr/sbin/gcc-ar-15.2"
@@ -2746,7 +2746,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2830,7 +2830,7 @@ events:
       - "/usr/bin/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -2889,7 +2889,7 @@ events:
       - "/usr/bin/gcc-ranlib-15.2"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-15.2"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-15.2"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gcc-ranlib-15.2"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/gcc-ranlib-15.2"
       - "/usr/local/sbin/gcc-ranlib-15.2"
       - "/usr/local/bin/gcc-ranlib-15.2"
       - "/usr/sbin/gcc-ranlib-15.2"
@@ -2949,7 +2949,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3016,8 +3016,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-8L9Yit"
-      binary: "/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-8L9Yit"
+      source: "/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-eyxdJx"
+      binary: "/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-eyxdJx"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -3026,13 +3026,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-8L9Yit'
+        Change Dir: '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-eyxdJx'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b9cfe/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_b9cfe.dir/build.make CMakeFiles/cmTC_b9cfe.dir/build
-        gmake[1]: Entering directory '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-8L9Yit'
-        Building C object CMakeFiles/cmTC_b9cfe.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_b9cfe.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d8c29/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d8c29.dir/build.make CMakeFiles/cmTC_d8c29.dir/build
+        gmake[1]: Entering directory '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-eyxdJx'
+        Building C object CMakeFiles/cmTC_d8c29.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_d8c29.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -3042,8 +3042,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9cfe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b9cfe.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b9cfe.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccoZHH0e.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d8c29.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d8c29.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d8c29.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccfCJK34.s
         GNU C23 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -3060,14 +3060,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: edd70396dcc669433a92073f97309866
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9cfe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b9cfe.dir/'
-         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_b9cfe.dir/CMakeCCompilerABI.c.o /tmp/ccoZHH0e.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d8c29.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d8c29.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_d8c29.dir/CMakeCCompilerABI.c.o /tmp/ccfCJK34.s
         GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9cfe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b9cfe.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_b9cfe
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9cfe.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d8c29.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d8c29.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_d8c29
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8c29.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper
@@ -3080,14 +3080,14 @@ events:
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b9cfe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b9cfe.'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2F2FAM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b9cfe /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b9cfe.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d8c29' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d8c29.'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTFFuA0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d8c29 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d8c29.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         collect2 version 15.2.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2F2FAM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b9cfe /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b9cfe.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTFFuA0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d8c29 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d8c29.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b9cfe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b9cfe.'
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_b9cfe.dir/CMakeCCompilerABI.c.o -o cmTC_b9cfe
-        gmake[1]: Leaving directory '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-8L9Yit'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d8c29' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d8c29.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_d8c29.dir/CMakeCCompilerABI.c.o -o cmTC_d8c29
+        gmake[1]: Leaving directory '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-eyxdJx'
         
       exitCode: 0
   -
@@ -3122,13 +3122,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-8L9Yit']
+        ignore line: [Change Dir: '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-eyxdJx']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b9cfe/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_b9cfe.dir/build.make CMakeFiles/cmTC_b9cfe.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-8L9Yit']
-        ignore line: [Building C object CMakeFiles/cmTC_b9cfe.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_b9cfe.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d8c29/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_d8c29.dir/build.make CMakeFiles/cmTC_d8c29.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-eyxdJx']
+        ignore line: [Building C object CMakeFiles/cmTC_d8c29.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_d8c29.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -3138,8 +3138,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9cfe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b9cfe.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b9cfe.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccoZHH0e.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d8c29.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d8c29.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d8c29.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccfCJK34.s]
         ignore line: [GNU C23 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -3156,14 +3156,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: edd70396dcc669433a92073f97309866]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9cfe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b9cfe.dir/']
-        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_b9cfe.dir/CMakeCCompilerABI.c.o /tmp/ccoZHH0e.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d8c29.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d8c29.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_d8c29.dir/CMakeCCompilerABI.c.o /tmp/ccfCJK34.s]
         ignore line: [GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b9cfe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b9cfe.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_b9cfe]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9cfe.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d8c29.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d8c29.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_d8c29]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8c29.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper]
@@ -3176,13 +3176,13 @@ events:
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b9cfe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b9cfe.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2F2FAM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b9cfe /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b9cfe.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d8c29' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d8c29.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTFFuA0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d8c29 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d8c29.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc2F2FAM.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccTFFuA0.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -3200,7 +3200,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_b9cfe] ==> ignore
+          arg [cmTC_d8c29] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
@@ -3215,7 +3215,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_b9cfe.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_d8c29.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -3230,7 +3230,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 15.2.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2F2FAM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b9cfe /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b9cfe.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTFFuA0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d8c29 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d8c29.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -3415,7 +3415,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3629,9 +3629,9 @@ events:
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/bin/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/Scripts/"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/"
       - "/usr/local/sbin/bin/"
       - "/usr/local/sbin/Scripts/"
       - "/usr/local/sbin/"
@@ -4578,396 +4578,396 @@ events:
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/python3.0dm"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/python3.0du"
       - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/python3.0d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.15mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.15m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.15u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.15"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.15dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.15dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.15du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.15d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.14mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.14m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.14u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.14"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.14dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.14dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.14du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.14d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.13mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.13m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.13u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.13"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.13dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.13dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.13du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.13d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.12mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.12m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.12u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.12"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.12dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.12dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.12du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.12d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.11mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.11m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.11u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.11"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.11dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.11dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.11du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.11d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.10mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.10m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.10u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.10"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.10dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.10dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.10du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.10d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.9mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.9m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.9u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.9"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.9dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.9dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.9du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.9d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.8mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.8m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.8u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.8"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.8dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.8dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.8du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.8d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.7mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.7m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.7u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.7"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.7dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.7dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.7du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.7d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.6mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.6m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.6u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.6"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.6dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.6dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.6du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.6d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.5mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.5m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.5u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.5"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.5dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.5dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.5du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.5d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.4mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.4m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.4u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.4"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.4dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.4dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.4du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.4d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.3mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.3m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.3u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.3"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.3dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.3dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.3du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.3d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.2mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.2m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.2u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.2"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.2dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.2dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.2du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.2d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.1mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.1m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.1u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.1"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.1dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.1dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.1du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.1d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.0mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.0m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.0u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.0"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.0dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.0dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.0du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/bin/python3.0d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.15mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.15m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.15u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.15"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.15dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.15dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.15du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.15d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.14mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.14m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.14u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.14"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.14dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.14dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.14du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.14d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.13mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.13m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.13u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.13"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.13dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.13dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.13du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.13d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.12mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.12m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.12u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.12"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.12dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.12dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.12du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.12d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.11mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.11m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.11u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.11"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.11dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.11dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.11du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.11d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.10mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.10m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.10u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.10"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.10dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.10dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.10du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.10d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.9mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.9m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.9u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.9"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.9dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.9dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.9du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.9d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.8mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.8m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.8u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.8"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.8dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.8dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.8du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.8d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.7mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.7m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.7u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.7"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.7dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.7dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.7du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.7d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.6mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.6m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.6u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.6"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.6dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.6dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.6du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.6d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.5mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.5m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.5u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.5"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.5dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.5dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.5du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.5d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.4mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.4m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.4u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.4"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.4dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.4dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.4du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.4d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.3mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.3m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.3u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.3"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.3dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.3dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.3du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.3d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.2mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.2m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.2u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.2"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.2dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.2dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.2du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.2d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.1mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.1m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.1u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.1"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.1dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.1dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.1du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.1d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.0mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.0m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.0u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.0"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.0dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.0dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.0du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/Scripts/python3.0d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.15mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.15m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.15u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.15"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.15dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.15dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.15du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.15d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.14mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.14m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.14u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.14"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.14dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.14dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.14du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.14d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.13mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.13m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.13u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.13"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.13dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.13dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.13du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.13d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.12mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.12m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.12u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.12"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.12dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.12dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.12du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.12d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.11mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.11m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.11u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.11"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.11dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.11dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.11du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.11d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.10mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.10m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.10u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.10"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.10dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.10dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.10du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.10d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.9mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.9m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.9u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.9"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.9dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.9dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.9du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.9d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.8mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.8m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.8u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.8"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.8dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.8dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.8du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.8d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.7mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.7m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.7u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.7"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.7dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.7dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.7du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.7d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.6mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.6m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.6u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.6"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.6dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.6dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.6du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.6d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.5mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.5m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.5u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.5"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.5dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.5dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.5du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.5d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.4mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.4m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.4u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.4"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.4dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.4dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.4du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.4d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.3mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.3m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.3u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.3"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.3dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.3dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.3du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.3d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.2mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.2m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.2u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.2"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.2dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.2dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.2du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.2d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.1mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.1m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.1u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.1"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.1dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.1dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.1du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.1d"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.0mu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.0m"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.0u"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.0"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.0dmu"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.0dm"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.0du"
-      - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/python3.0d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.15mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.15m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.15u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.15"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.15dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.15dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.15du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.15d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.14mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.14m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.14u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.14"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.14dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.14dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.14du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.14d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.13mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.13m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.13u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.13"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.13dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.13dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.13du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.13d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.12mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.12m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.12u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.12"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.12dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.12dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.12du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.12d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.11mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.11m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.11u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.11"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.11dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.11dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.11du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.11d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.10mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.10m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.10u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.10"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.10dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.10dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.10du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.10d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.9mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.9m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.9u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.9"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.9dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.9dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.9du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.9d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.8mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.8m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.8u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.8"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.8dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.8dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.8du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.8d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.7mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.7m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.7u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.7"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.7dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.7dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.7du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.7d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.6mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.6m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.6u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.6"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.6dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.6dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.6du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.6d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.5mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.5m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.5u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.5"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.5dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.5dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.5du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.5d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.4mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.4m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.4u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.4"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.4dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.4dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.4du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.4d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.3mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.3m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.3u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.3"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.3dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.3dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.3du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.3d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.2mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.2m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.2u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.2"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.2dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.2dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.2du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.2d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.1mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.1m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.1u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.1"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.1dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.1dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.1du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.1d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.0mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.0m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.0u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.0"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.0dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.0dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.0du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/bin/python3.0d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.15mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.15m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.15u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.15"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.15dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.15dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.15du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.15d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.14mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.14m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.14u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.14"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.14dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.14dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.14du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.14d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.13mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.13m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.13u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.13"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.13dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.13dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.13du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.13d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.12mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.12m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.12u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.12"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.12dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.12dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.12du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.12d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.11mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.11m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.11u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.11"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.11dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.11dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.11du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.11d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.10mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.10m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.10u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.10"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.10dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.10dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.10du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.10d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.9mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.9m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.9u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.9"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.9dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.9dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.9du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.9d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.8mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.8m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.8u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.8"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.8dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.8dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.8du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.8d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.7mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.7m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.7u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.7"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.7dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.7dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.7du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.7d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.6mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.6m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.6u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.6"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.6dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.6dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.6du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.6d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.5mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.5m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.5u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.5"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.5dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.5dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.5du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.5d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.4mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.4m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.4u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.4"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.4dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.4dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.4du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.4d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.3mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.3m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.3u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.3"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.3dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.3dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.3du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.3d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.2mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.2m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.2u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.2"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.2dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.2dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.2du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.2d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.1mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.1m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.1u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.1"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.1dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.1dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.1du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.1d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.0mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.0m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.0u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.0"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.0dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.0dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.0du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/Scripts/python3.0d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.15mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.15m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.15u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.15"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.15dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.15dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.15du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.15d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.14mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.14m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.14u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.14"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.14dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.14dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.14du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.14d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.13mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.13m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.13u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.13"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.13dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.13dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.13du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.13d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.12mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.12m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.12u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.12"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.12dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.12dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.12du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.12d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.11mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.11m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.11u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.11"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.11dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.11dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.11du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.11d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.10mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.10m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.10u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.10"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.10dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.10dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.10du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.10d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.9mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.9m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.9u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.9"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.9dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.9dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.9du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.9d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.8mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.8m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.8u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.8"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.8dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.8dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.8du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.8d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.7mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.7m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.7u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.7"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.7dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.7dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.7du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.7d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.6mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.6m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.6u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.6"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.6dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.6dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.6du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.6d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.5mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.5m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.5u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.5"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.5dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.5dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.5du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.5d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.4mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.4m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.4u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.4"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.4dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.4dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.4du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.4d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.3mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.3m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.3u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.3"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.3dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.3dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.3du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.3d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.2mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.2m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.2u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.2"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.2dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.2dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.2du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.2d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.1mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.1m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.1u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.1"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.1dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.1dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.1du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.1d"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.0mu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.0m"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.0u"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.0"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.0dmu"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.0dm"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.0du"
+      - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli/python3.0d"
       - "/usr/local/sbin/bin/python3"
       - "/usr/local/sbin/bin/python"
       - "/usr/local/sbin/bin/python3.15mu"
@@ -6403,7 +6403,7 @@ events:
       ENV{PATH}:
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
         - "/home/johns/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/home/johns/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
+        - "/home/johns/.vscode-server/bin/645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -6473,8 +6473,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-10tZAO"
-      binary: "/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-10tZAO"
+      source: "/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-ADBxua"
+      binary: "/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-ADBxua"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6483,17 +6483,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-10tZAO'
+        Change Dir: '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-ADBxua'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_008a6/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_008a6.dir/build.make CMakeFiles/cmTC_008a6.dir/build
-        gmake[1]: Entering directory '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-10tZAO'
-        Building C object CMakeFiles/cmTC_008a6.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_008a6.dir/src.c.o -c /home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-10tZAO/src.c
-        Linking C executable cmTC_008a6
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_008a6.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_008a6.dir/src.c.o -o cmTC_008a6
-        gmake[1]: Leaving directory '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-10tZAO'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_68362/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_68362.dir/build.make CMakeFiles/cmTC_68362.dir/build
+        gmake[1]: Entering directory '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-ADBxua'
+        Building C object CMakeFiles/cmTC_68362.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_68362.dir/src.c.o -c /home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-ADBxua/src.c
+        Linking C executable cmTC_68362
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68362.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_68362.dir/src.c.o -o cmTC_68362
+        gmake[1]: Leaving directory '/home/johns/raft-kv/build/CMakeFiles/CMakeScratch/TryCompile-ADBxua'
         
       exitCode: 0
 ...

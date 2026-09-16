@@ -54,6 +54,24 @@ void RaftNode::handleElectionTimeout() {
     }
 }
 
+void RaftNode::promoteToLeader() {
+    std::lock_guard<std::mutex> lock(nodeMutex_);
+    if (state_ == NodeState::Candidate) {
+        state_ = NodeState::Leader;
+    }
+}
+
+LogIndex RaftNode::propose(const Command& cmd) {
+    std::lock_guard<std::mutex> lock(nodeMutex_);
+    LogIndex newIndex = log_.size();
+    log_.push_back(LogEntry{
+        .term = currentTerm_,
+        .index = newIndex,
+        .command = cmd
+    });
+    return newIndex;
+}
+
 void RaftNode::receiveHeartbeat(Term leaderTerm) {
     std::lock_guard<std::mutex> lock(nodeMutex_);
     if (leaderTerm >= currentTerm_) {
@@ -96,7 +114,9 @@ AppendEntriesReply RaftNode::handleAppendEntries(const AppendEntriesArgs& args) 
 
     if (args.term >= currentTerm_) {
         currentTerm_ = args.term;
-        state_ = NodeState::Follower;
+        if (state_ != NodeState::Leader) {
+            state_ = NodeState::Follower;
+        }
         votedFor_ = -1;
     }
 
