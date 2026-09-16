@@ -7,7 +7,11 @@ target_link_libraries(node_test raft_core gtest_main)
 add_executable(state_machine_test state_machine_test.cpp)
 target_link_libraries(state_machine_test raft_core gtest_main)
 
+add_executable(transport_test transport_test.cpp)
+target_link_libraries(transport_test raft_core gtest_main)
+
 include(GoogleTest)
 gtest_discover_tests(log_entry_test)
 gtest_discover_tests(node_test)
 gtest_discover_tests(state_machine_test)
+gtest_discover_tests(transport_test)

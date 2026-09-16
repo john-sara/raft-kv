@@ -275,6 +275,19 @@ state_machine_test/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/state_machine_test.dir/build.make tests/CMakeFiles/state_machine_test.dir/build
 .PHONY : state_machine_test/fast
 
+#=============================================================================
+# Target rules for targets named transport_test
+
+# Build rule for target.
+transport_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 transport_test
+.PHONY : transport_test
+
+# fast build rule for target.
+transport_test/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/transport_test.dir/build.make tests/CMakeFiles/transport_test.dir/build
+.PHONY : transport_test/fast
+
 src/node.o: src/node.cpp.o
 .PHONY : src/node.o
 
@@ -323,6 +336,30 @@ src/state_machine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_core.dir/build.make CMakeFiles/raft_core.dir/src/state_machine.cpp.s
 .PHONY : src/state_machine.cpp.s
 
+src/transport.o: src/transport.cpp.o
+.PHONY : src/transport.o
+
+# target to build an object file
+src/transport.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_core.dir/build.make CMakeFiles/raft_core.dir/src/transport.cpp.o
+.PHONY : src/transport.cpp.o
+
+src/transport.i: src/transport.cpp.i
+.PHONY : src/transport.i
+
+# target to preprocess a source file
+src/transport.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_core.dir/build.make CMakeFiles/raft_core.dir/src/transport.cpp.i
+.PHONY : src/transport.cpp.i
+
+src/transport.s: src/transport.cpp.s
+.PHONY : src/transport.s
+
+# target to generate assembly for a file
+src/transport.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_core.dir/build.make CMakeFiles/raft_core.dir/src/transport.cpp.s
+.PHONY : src/transport.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -344,12 +381,16 @@ help:
 	@echo "... node_test"
 	@echo "... raft_core"
 	@echo "... state_machine_test"
+	@echo "... transport_test"
 	@echo "... src/node.o"
 	@echo "... src/node.i"
 	@echo "... src/node.s"
 	@echo "... src/state_machine.o"
 	@echo "... src/state_machine.i"
 	@echo "... src/state_machine.s"
+	@echo "... src/transport.o"
+	@echo "... src/transport.i"
+	@echo "... src/transport.s"
 .PHONY : help
 
 

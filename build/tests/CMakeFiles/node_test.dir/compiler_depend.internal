@@ -27,6 +27,7 @@ tests/CMakeFiles/node_test.dir/node_test.cpp.o
  /home/johns/raft-kv/include/raft/log_entry.hpp
  /home/johns/raft-kv/include/raft/node.hpp
  /home/johns/raft-kv/include/raft/rpc.hpp
+ /home/johns/raft-kv/include/raft/state_machine.hpp
  /home/johns/raft-kv/include/raft/types.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h

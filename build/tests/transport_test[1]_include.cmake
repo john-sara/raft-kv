@@ -1,0 +1,5 @@
+if(EXISTS "/home/johns/raft-kv/build/tests/transport_test[1]_tests.cmake")
+  include("/home/johns/raft-kv/build/tests/transport_test[1]_tests.cmake")
+else()
+  add_test(transport_test_NOT_BUILT transport_test_NOT_BUILT)
+endif()

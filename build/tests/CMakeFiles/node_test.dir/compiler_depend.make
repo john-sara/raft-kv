@@ -26,6 +26,7 @@ tests/CMakeFiles/node_test.dir/node_test.cpp.o: /home/johns/raft-kv/tests/node_t
   /home/johns/raft-kv/include/raft/log_entry.hpp \
   /home/johns/raft-kv/include/raft/node.hpp \
   /home/johns/raft-kv/include/raft/rpc.hpp \
+  /home/johns/raft-kv/include/raft/state_machine.hpp \
   /home/johns/raft-kv/include/raft/types.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -720,10 +721,6 @@ _deps/googletest-src/googletest/include/gtest/gtest-printers.h:
 
 /usr/include/c++/15/bits/postypes.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigstack.h:
-
-/usr/include/c++/15/bits/ostream.tcc:
-
 /usr/include/x86_64-linux-gnu/asm/unistd_64.h:
 
 /usr/include/c++/15/bits/std_mutex.h:
@@ -761,6 +758,8 @@ _deps/googletest-src/googletest/include/gtest/gtest-printers.h:
 /usr/include/c++/15/bits/unicode-data.h:
 
 /usr/include/c++/15/exception:
+
+/home/johns/raft-kv/include/raft/state_machine.hpp:
 
 /usr/include/c++/15/bits/locale_facets_nonio.tcc:
 
@@ -815,6 +814,10 @@ _deps/googletest-src/googletest/include/gtest/gtest-param-test.h:
 /usr/include/c++/15/array:
 
 /usr/include/c++/15/tuple:
+
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/usr/include/c++/15/bits/ostream.tcc:
 
 /home/johns/raft-kv/include/raft/log_entry.hpp:
 
@@ -940,16 +943,6 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-port.h:
 
 _deps/googletest-src/googletest/include/gtest/gtest-matchers.h:
 
-/usr/include/x86_64-linux-gnu/sys/wait.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/asm-generic/types.h:
-
 /usr/include/c++/15/bits/max_size_type.h:
 
 _deps/googletest-src/googletest/include/gtest/gtest.h:
@@ -963,6 +956,16 @@ _deps/googletest-src/googletest/include/gtest/gtest.h:
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
 _deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h:
+
+/usr/include/x86_64-linux-gnu/sys/wait.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/asm-generic/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
@@ -989,6 +992,24 @@ _deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h:
 /usr/include/c++/15/tr1/beta_function.tcc:
 
 /usr/include/c++/15/any:
+
+/usr/include/c++/15/bits/cpp_type_traits.h:
+
+/usr/include/c++/15/bits/basic_string.h:
+
+/usr/include/c++/15/streambuf:
+
+/usr/include/c++/15/bits/concept_check.h:
+
+/usr/include/c++/15/bits/version.h:
+
+/usr/include/linux/stat.h:
+
+/usr/include/c++/15/bits/specfun.h:
+
+/usr/include/c++/15/backward/binders.h:
+
+/usr/include/c++/15/utility:
 
 /usr/include/c++/15/bits/allocator.h:
 
@@ -1026,12 +1047,6 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h:
 
 /usr/include/c++/15/map:
 
-/usr/include/c++/15/bits/exception_defines.h:
-
-/usr/include/c++/15/backward/auto_ptr.h:
-
-/usr/include/c++/15/bits/stl_heap.h:
-
 /usr/include/x86_64-linux-gnu/bits/syscall.h:
 
 /usr/include/c++/15/bits/cxxabi_init_exception.h:
@@ -1039,12 +1054,6 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h:
 _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h:
 
 /usr/include/c++/15/variant:
-
-/usr/include/c++/15/bits/basic_string.h:
-
-/usr/include/c++/15/bits/cpp_type_traits.h:
-
-/usr/include/c++/15/streambuf:
 
 /usr/include/c++/15/bits/functional_hash.h:
 
@@ -1072,21 +1081,21 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h:
 
 /usr/include/c++/15/concepts:
 
-/usr/include/c++/15/bits/specfun.h:
+/usr/include/c++/15/bits/exception_defines.h:
 
-/usr/include/c++/15/backward/binders.h:
+/usr/include/c++/15/backward/auto_ptr.h:
 
-/usr/include/c++/15/utility:
-
-/usr/include/c++/15/bits/concept_check.h:
-
-/usr/include/c++/15/bits/version.h:
-
-/usr/include/linux/stat.h:
+/usr/include/c++/15/bits/stl_heap.h:
 
 /usr/lib/x86_64-linux-gnu/libmvec.so.1:
 
 /usr/include/c++/15/bits/stl_iterator_base_types.h:
+
+/usr/include/linux/stddef.h:
+
+/usr/include/c++/15/bits/locale_classes.h:
+
+/usr/include/c++/15/bits/stl_map.h:
 
 /usr/include/c++/15/bits/unicode.h:
 
@@ -1335,9 +1344,3 @@ _deps/googletest-src/googletest/include/gtest/gtest-test-part.h:
 /usr/include/libintl.h:
 
 /usr/include/linux/posix_types.h:
-
-/usr/include/c++/15/bits/locale_classes.h:
-
-/usr/include/c++/15/bits/stl_map.h:
-
-/usr/include/linux/stddef.h:

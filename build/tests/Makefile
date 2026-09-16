@@ -213,6 +213,20 @@ state_machine_test/fast:
 	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/state_machine_test.dir/build.make tests/CMakeFiles/state_machine_test.dir/build
 .PHONY : state_machine_test/fast
 
+# Convenience name for target.
+tests/CMakeFiles/transport_test.dir/rule:
+	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/transport_test.dir/rule
+.PHONY : tests/CMakeFiles/transport_test.dir/rule
+
+# Convenience name for target.
+transport_test: tests/CMakeFiles/transport_test.dir/rule
+.PHONY : transport_test
+
+# fast build rule for target.
+transport_test/fast:
+	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/transport_test.dir/build.make tests/CMakeFiles/transport_test.dir/build
+.PHONY : transport_test/fast
+
 log_entry_test.o: log_entry_test.cpp.o
 .PHONY : log_entry_test.o
 
@@ -285,6 +299,30 @@ state_machine_test.cpp.s:
 	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/state_machine_test.dir/build.make tests/CMakeFiles/state_machine_test.dir/state_machine_test.cpp.s
 .PHONY : state_machine_test.cpp.s
 
+transport_test.o: transport_test.cpp.o
+.PHONY : transport_test.o
+
+# target to build an object file
+transport_test.cpp.o:
+	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/transport_test.dir/build.make tests/CMakeFiles/transport_test.dir/transport_test.cpp.o
+.PHONY : transport_test.cpp.o
+
+transport_test.i: transport_test.cpp.i
+.PHONY : transport_test.i
+
+# target to preprocess a source file
+transport_test.cpp.i:
+	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/transport_test.dir/build.make tests/CMakeFiles/transport_test.dir/transport_test.cpp.i
+.PHONY : transport_test.cpp.i
+
+transport_test.s: transport_test.cpp.s
+.PHONY : transport_test.s
+
+# target to generate assembly for a file
+transport_test.cpp.s:
+	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/transport_test.dir/build.make tests/CMakeFiles/transport_test.dir/transport_test.cpp.s
+.PHONY : transport_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -301,6 +339,7 @@ help:
 	@echo "... log_entry_test"
 	@echo "... node_test"
 	@echo "... state_machine_test"
+	@echo "... transport_test"
 	@echo "... log_entry_test.o"
 	@echo "... log_entry_test.i"
 	@echo "... log_entry_test.s"
@@ -310,6 +349,9 @@ help:
 	@echo "... state_machine_test.o"
 	@echo "... state_machine_test.i"
 	@echo "... state_machine_test.s"
+	@echo "... transport_test.o"
+	@echo "... transport_test.i"
+	@echo "... transport_test.s"
 .PHONY : help
 
 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -Wl,--dependency-file=CMakeFiles/transport_test.dir/link.d CMakeFiles/transport_test.dir/transport_test.cpp.o -o transport_test  ../libraft_core.a ../lib/libgtest_main.a ../lib/libgtest.a

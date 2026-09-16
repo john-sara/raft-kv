@@ -16,7 +16,7 @@ FetchContent_MakeAvailable(googletest)
 
 include_directories(include)
 
-add_library(raft_core src/node.cpp src/state_machine.cpp)
+add_library(raft_core src/node.cpp src/state_machine.cpp src/transport.cpp)
 
 enable_testing()
 add_subdirectory(tests)

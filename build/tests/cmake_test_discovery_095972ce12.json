@@ -1,0 +1,17 @@
+{
+  "tests": 1,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "TransportTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "NodeRoutingAndRPCCommunication",
+          "file": "\/home\/johns\/raft-kv\/tests\/transport_test.cpp",
+          "line": 5
+        }
+      ]
+    }
+  ]
+}
