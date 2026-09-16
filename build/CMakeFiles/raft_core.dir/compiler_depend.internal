@@ -4,6 +4,7 @@
 CMakeFiles/raft_core.dir/src/node.cpp.o
  /home/johns/raft-kv/src/node.cpp
  /home/johns/raft-kv/include/raft/node.hpp
+ /home/johns/raft-kv/include/raft/rpc.hpp
  /home/johns/raft-kv/include/raft/types.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h

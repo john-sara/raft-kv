@@ -3,6 +3,7 @@
 
 CMakeFiles/raft_core.dir/src/node.cpp.o: /home/johns/raft-kv/src/node.cpp \
   /home/johns/raft-kv/include/raft/node.hpp \
+  /home/johns/raft-kv/include/raft/rpc.hpp \
   /home/johns/raft-kv/include/raft/types.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -419,8 +420,6 @@ CMakeFiles/raft_core.dir/src/node.cpp.o: /home/johns/raft-kv/src/node.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
-/usr/include/c++/15/cstdint:
-
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/c++/15/concepts:
@@ -475,6 +474,10 @@ CMakeFiles/raft_core.dir/src/node.cpp.o: /home/johns/raft-kv/src/node.cpp \
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/c++/15/bits/stl_iterator_base_funcs.h:
+
 /usr/include/c++/15/bits/enable_special_members.h:
 
 /usr/include/c++/15/ext/atomicity.h:
@@ -527,23 +530,15 @@ CMakeFiles/raft_core.dir/src/node.cpp.o: /home/johns/raft-kv/src/node.cpp \
 
 /usr/include/c++/15/bits/uses_allocator.h:
 
+/home/johns/raft-kv/include/raft/rpc.hpp:
+
 /usr/include/x86_64-linux-gnu/c++/15/bits/ctype_inline.h:
 
 /usr/include/c++/15/bits/move.h:
 
-/usr/include/c++/15/bits/stringfwd.h:
+/usr/lib/gcc/x86_64-linux-gnu/15/include/limits.h:
 
-/usr/include/c++/15/bits/chrono.h:
-
-/usr/include/c++/15/bits/nested_exception.h:
-
-/usr/include/linux/sched/types.h:
-
-/usr/include/c++/15/ext/aligned_buffer.h:
-
-/usr/include/c++/15/bits/atomic_base.h:
-
-/home/johns/raft-kv/include/raft/node.hpp:
+/usr/include/c++/15/bits/monostate.h:
 
 /usr/include/c++/15/cmath:
 
@@ -573,13 +568,25 @@ CMakeFiles/raft_core.dir/src/node.cpp.o: /home/johns/raft-kv/src/node.cpp \
 
 /usr/include/syscall.h:
 
+/usr/include/c++/15/ext/aligned_buffer.h:
+
+/usr/include/c++/15/bits/atomic_base.h:
+
+/home/johns/raft-kv/include/raft/node.hpp:
+
+/usr/include/c++/15/bits/stringfwd.h:
+
+/usr/include/c++/15/bits/chrono.h:
+
+/usr/include/c++/15/bits/nested_exception.h:
+
+/usr/include/linux/sched/types.h:
+
 /usr/include/c++/15/bits/stl_iterator_base_types.h:
 
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/15/bits/formatfwd.h:
-
-/usr/include/c++/15/ctime:
 
 /usr/include/x86_64-linux-gnu/asm/types.h:
 
@@ -592,6 +599,16 @@ CMakeFiles/raft_core.dir/src/node.cpp.o: /home/johns/raft-kv/src/node.cpp \
 /usr/include/c++/15/bits/shared_ptr.h:
 
 /home/johns/raft-kv/include/raft/types.hpp:
+
+/usr/include/c++/15/cstdint:
+
+/usr/include/c++/15/bits/std_abs.h:
+
+/usr/include/c++/15/typeinfo:
+
+/usr/include/c++/15/debug/debug.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
 /usr/include/c++/15/bits/align.h:
 
@@ -607,14 +624,6 @@ CMakeFiles/raft_core.dir/src/node.cpp.o: /home/johns/raft-kv/src/node.cpp \
 
 /usr/include/alloca.h:
 
-/usr/include/c++/15/bits/std_abs.h:
-
-/usr/include/c++/15/typeinfo:
-
-/usr/include/c++/15/debug/debug.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
 /usr/include/asm-generic/errno-base.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
@@ -622,6 +631,12 @@ CMakeFiles/raft_core.dir/src/node.cpp.o: /home/johns/raft-kv/src/node.cpp \
 /usr/include/asm-generic/bitsperlong.h:
 
 /usr/include/asm-generic/types.h:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/c++/15/bits/memoryfwd.h:
+
+/usr/include/c++/15/tr1/beta_function.tcc:
 
 /usr/include/c++/15/bits/stl_numeric.h:
 
@@ -636,12 +651,6 @@ CMakeFiles/raft_core.dir/src/node.cpp.o: /home/johns/raft-kv/src/node.cpp \
 /usr/include/c++/15/bits/ranges_util.h:
 
 /usr/include/c++/15/tuple:
-
-/usr/include/asm-generic/int-ll64.h:
-
-/usr/include/c++/15/bits/memoryfwd.h:
-
-/usr/include/c++/15/tr1/beta_function.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
@@ -755,9 +764,7 @@ CMakeFiles/raft_core.dir/src/node.cpp.o: /home/johns/raft-kv/src/node.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/include/limits.h:
-
-/usr/include/c++/15/bits/monostate.h:
+/usr/include/c++/15/ctime:
 
 /usr/include/c++/15/ext/alloc_traits.h:
 
@@ -970,7 +977,3 @@ CMakeFiles/raft_core.dir/src/node.cpp.o: /home/johns/raft-kv/src/node.cpp \
 /usr/include/c++/15/tr1/poly_hermite.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/c++/15/bits/stl_iterator_base_funcs.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:

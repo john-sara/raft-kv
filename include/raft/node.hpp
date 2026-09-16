@@ -22,6 +22,7 @@ public:
     std::chrono::milliseconds getRandomTimeout() const;
 
     RequestVoteReply handleRequestVote(const RequestVoteArgs& args);
+    AppendEntriesReply handleAppendEntries(const AppendEntriesArgs& args);
 
 private:
     NodeId id_;
