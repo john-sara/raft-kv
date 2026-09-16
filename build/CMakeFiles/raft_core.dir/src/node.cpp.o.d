@@ -128,19 +128,28 @@ CMakeFiles/raft_core.dir/src/node.cpp.o: /home/johns/raft-kv/src/node.cpp \
  /usr/include/c++/15/vector /usr/include/c++/15/bits/stl_uninitialized.h \
  /usr/include/c++/15/bits/stl_vector.h \
  /usr/include/c++/15/bits/stl_bvector.h \
- /usr/include/c++/15/bits/vector.tcc /usr/include/c++/15/chrono \
- /usr/include/c++/15/bits/chrono.h /usr/include/c++/15/ratio \
- /usr/include/c++/15/limits /usr/include/c++/15/ctime /usr/include/time.h \
+ /usr/include/c++/15/bits/vector.tcc \
+ /home/johns/raft-kv/include/raft/state_machine.hpp \
+ /usr/include/c++/15/unordered_map \
+ /usr/include/c++/15/bits/unordered_map.h \
+ /usr/include/c++/15/bits/hashtable.h \
+ /usr/include/c++/15/bits/hashtable_policy.h \
+ /usr/include/c++/15/ext/aligned_buffer.h \
+ /usr/include/c++/15/bits/enable_special_members.h \
+ /usr/include/c++/15/bits/node_handle.h \
+ /usr/include/c++/15/bits/erase_if.h /usr/include/c++/15/optional \
+ /usr/include/c++/15/exception /usr/include/c++/15/bits/exception_ptr.h \
+ /usr/include/c++/15/bits/cxxabi_init_exception.h \
+ /usr/include/c++/15/typeinfo /usr/include/c++/15/bits/nested_exception.h \
+ /usr/include/c++/15/mutex /usr/include/c++/15/bits/chrono.h \
+ /usr/include/c++/15/ratio /usr/include/c++/15/limits \
+ /usr/include/c++/15/ctime /usr/include/time.h \
  /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/timex.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /usr/include/c++/15/bits/parse_numbers.h /usr/include/c++/15/sstream \
- /usr/include/c++/15/istream /usr/include/c++/15/ios \
- /usr/include/c++/15/exception /usr/include/c++/15/bits/exception_ptr.h \
- /usr/include/c++/15/bits/cxxabi_init_exception.h \
- /usr/include/c++/15/typeinfo /usr/include/c++/15/bits/nested_exception.h \
- /usr/include/c++/15/bits/ios_base.h /usr/include/c++/15/ext/atomicity.h \
+ /usr/include/c++/15/bits/parse_numbers.h \
+ /usr/include/c++/15/bits/std_mutex.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/gthr.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/gthr-default.h \
  /usr/include/pthread.h /usr/include/sched.h \
@@ -159,14 +168,18 @@ CMakeFiles/raft_core.dir/src/node.cpp.o: /home/johns/raft-kv/src/node.cpp \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /usr/include/c++/15/bits/unique_lock.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/error_constants.h \
+ /usr/include/c++/15/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/atomic_word.h \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+ /usr/include/c++/15/chrono /usr/include/c++/15/sstream \
+ /usr/include/c++/15/istream /usr/include/c++/15/ios \
+ /usr/include/c++/15/bits/ios_base.h \
  /usr/include/c++/15/bits/locale_classes.h \
  /usr/include/c++/15/bits/locale_classes.tcc \
- /usr/include/c++/15/system_error \
- /usr/include/x86_64-linux-gnu/c++/15/bits/error_constants.h \
- /usr/include/c++/15/stdexcept /usr/include/c++/15/streambuf \
- /usr/include/c++/15/bits/streambuf.tcc \
+ /usr/include/c++/15/system_error /usr/include/c++/15/stdexcept \
+ /usr/include/c++/15/streambuf /usr/include/c++/15/bits/streambuf.tcc \
  /usr/include/c++/15/bits/basic_ios.h \
  /usr/include/c++/15/bits/locale_facets.h /usr/include/c++/15/cwctype \
  /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
@@ -186,7 +199,6 @@ CMakeFiles/raft_core.dir/src/node.cpp.o: /home/johns/raft-kv/src/node.cpp \
  /usr/include/c++/15/bits/shared_ptr_base.h \
  /usr/include/c++/15/bits/allocated_ptr.h \
  /usr/include/c++/15/bits/unique_ptr.h \
- /usr/include/c++/15/ext/aligned_buffer.h \
  /usr/include/c++/15/ext/concurrence.h /usr/include/c++/15/bits/align.h \
  /usr/include/c++/15/bits/chrono_io.h /usr/include/c++/15/iomanip \
  /usr/include/c++/15/locale \
@@ -198,8 +210,6 @@ CMakeFiles/raft_core.dir/src/node.cpp.o: /home/johns/raft-kv/src/node.cpp \
  /usr/include/c++/15/bits/locale_conv.h \
  /usr/include/c++/15/bits/quoted_string.h /usr/include/c++/15/format \
  /usr/include/c++/15/array /usr/include/c++/15/charconv \
- /usr/include/c++/15/optional \
- /usr/include/c++/15/bits/enable_special_members.h \
  /usr/include/c++/15/span /usr/include/c++/15/bits/monostate.h \
  /usr/include/c++/15/bits/formatfwd.h \
  /usr/include/c++/15/bits/ranges_algobase.h \
@@ -233,8 +243,33 @@ CMakeFiles/raft_core.dir/src/node.cpp.o: /home/johns/raft-kv/src/node.cpp \
  /usr/include/c++/15/bits/random.tcc /usr/include/c++/15/numeric \
  /usr/include/c++/15/bits/stl_numeric.h \
  /usr/include/c++/15/pstl/glue_numeric_defs.h \
- /usr/include/c++/15/pstl/execution_defs.h /usr/include/c++/15/mutex \
- /usr/include/c++/15/bits/std_mutex.h \
- /usr/include/c++/15/bits/unique_lock.h /usr/include/c++/15/algorithm \
- /usr/include/c++/15/bits/ranges_algo.h \
+ /usr/include/c++/15/pstl/execution_defs.h /usr/include/c++/15/memory \
+ /usr/include/c++/15/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/15/bits/shared_ptr_atomic.h \
+ /usr/include/c++/15/bits/atomic_base.h \
+ /usr/include/c++/15/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/15/bits/atomic_wait.h /usr/include/c++/15/climits \
+ /usr/lib/gcc/x86_64-linux-gnu/15/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/15/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/syscall.h \
+ /usr/include/x86_64-linux-gnu/sys/syscall.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
+ /usr/include/x86_64-linux-gnu/bits/syscall.h \
+ /usr/include/c++/15/backward/auto_ptr.h \
+ /usr/include/c++/15/bits/ranges_uninitialized.h \
+ /usr/include/c++/15/pstl/glue_memory_defs.h \
+ /usr/include/c++/15/algorithm /usr/include/c++/15/bits/ranges_algo.h \
  /usr/include/c++/15/pstl/glue_algorithm_defs.h

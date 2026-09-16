@@ -5,7 +5,6 @@ namespace raft {
 
 RaftNode::RaftNode(NodeId id) 
     : id_(id), rng_(id + std::chrono::steady_clock::now().time_since_epoch().count()) {
-    // Pad log index 0 with a dummy entry so true log entries start at index 1
     log_.push_back(LogEntry{.term = 0, .index = 0, .command = {CommandType::Get, "", ""}});
 }
 
@@ -31,9 +30,14 @@ LogIndex RaftNode::getCommitIndex() const {
     return commitIndex_;
 }
 
+LogIndex RaftNode::getLastApplied() const {
+    std::lock_guard<std::mutex> lock(nodeMutex_);
+    return lastApplied_;
+}
+
 size_t RaftNode::getLogSize() const {
     std::lock_guard<std::mutex> lock(nodeMutex_);
-    return log_.size() - 1; // Exclude dummy entry at index 0
+    return log_.size() - 1;
 }
 
 std::chrono::milliseconds RaftNode::getRandomTimeout() const {
@@ -86,25 +90,21 @@ AppendEntriesReply RaftNode::handleAppendEntries(const AppendEntriesArgs& args) 
     std::lock_guard<std::mutex> lock(nodeMutex_);
     AppendEntriesReply reply{.term = currentTerm_, .success = false};
 
-    // Rule 1: Reply false if term < currentTerm
     if (args.term < currentTerm_) {
         return reply;
     }
 
-    // Step down if receiving from valid leader of equal/higher term
     if (args.term >= currentTerm_) {
         currentTerm_ = args.term;
         state_ = NodeState::Follower;
         votedFor_ = -1;
     }
 
-    // Rule 2: Reply false if log doesn't contain an entry at prevLogIndex matching prevLogTerm
     if (args.prevLogIndex >= log_.size() || log_[args.prevLogIndex].term != args.prevLogTerm) {
         reply.term = currentTerm_;
         return reply;
     }
 
-    // Rule 3 & 4: Append new entries, overwriting conflicting entries
     LogIndex insertIndex = args.prevLogIndex + 1;
     for (const auto& entry : args.entries) {
         if (insertIndex < log_.size()) {
@@ -118,7 +118,6 @@ AppendEntriesReply RaftNode::handleAppendEntries(const AppendEntriesArgs& args) 
         insertIndex++;
     }
 
-    // Rule 5: Update commitIndex if leaderCommit > commitIndex
     if (args.leaderCommit > commitIndex_) {
         commitIndex_ = std::min(args.leaderCommit, static_cast<LogIndex>(log_.size() - 1));
     }
@@ -126,6 +125,24 @@ AppendEntriesReply RaftNode::handleAppendEntries(const AppendEntriesArgs& args) 
     reply.success = true;
     reply.term = currentTerm_;
     return reply;
+}
+
+size_t RaftNode::applyCommittedEntries() {
+    std::lock_guard<std::mutex> lock(nodeMutex_);
+    size_t appliedCount = 0;
+
+    while (commitIndex_ > lastApplied_) {
+        lastApplied_++;
+        stateMachine_.apply(log_[lastApplied_].command);
+        appliedCount++;
+    }
+
+    return appliedCount;
+}
+
+std::optional<std::string> RaftNode::getValue(const std::string& key) const {
+    std::lock_guard<std::mutex> lock(nodeMutex_);
+    return stateMachine_.get(key);
 }
 
 } // namespace raft

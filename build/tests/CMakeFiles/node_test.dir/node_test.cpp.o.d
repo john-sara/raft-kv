@@ -306,6 +306,7 @@ tests/CMakeFiles/node_test.dir/node_test.cpp.o: \
  /home/johns/raft-kv/include/raft/types.hpp \
  /home/johns/raft-kv/include/raft/rpc.hpp \
  /home/johns/raft-kv/include/raft/log_entry.hpp \
+ /home/johns/raft-kv/include/raft/state_machine.hpp \
  /usr/include/c++/15/chrono /usr/include/c++/15/bits/stl_algo.h \
  /usr/include/c++/15/bits/algorithmfwd.h \
  /usr/include/c++/15/bits/stl_heap.h \

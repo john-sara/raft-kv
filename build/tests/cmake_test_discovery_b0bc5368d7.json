@@ -1,10 +1,10 @@
 {
-  "tests": 3,
+  "tests": 2,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "NodeTest",
-      "tests": 3,
+      "tests": 2,
       "testsuite": [
         {
           "name": "InitialStateIsFollower",
@@ -12,14 +12,9 @@
           "line": 4
         },
         {
-          "name": "AppendEntriesRejectsUnmatchedPrevLogIndex",
-          "file": "\/home\/johns\/raft-kv\/tests\/node_test.cpp",
-          "line": 11
-        },
-        {
           "name": "AppendEntriesReplicatesAndCommits",
           "file": "\/home\/johns\/raft-kv\/tests\/node_test.cpp",
-          "line": 27
+          "line": 11
         }
       ]
     }

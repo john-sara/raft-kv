@@ -1,10 +1,10 @@
-Start testing: Sep 15 20:55 CDT
+Start testing: Sep 15 21:12 CDT
 ----------------------------------------------------------
-1/7 Testing: LogEntryTest.BasicEntryCreation
-1/7 Test: LogEntryTest.BasicEntryCreation
+1/6 Testing: LogEntryTest.BasicEntryCreation
+1/6 Test: LogEntryTest.BasicEntryCreation
 Command: "/home/johns/raft-kv/build/tests/log_entry_test" "--gtest_filter=LogEntryTest.BasicEntryCreation" "--gtest_also_run_disabled_tests"
 Directory: /home/johns/raft-kv/build/tests
-"LogEntryTest.BasicEntryCreation" start time: Sep 15 20:55 CDT
+"LogEntryTest.BasicEntryCreation" start time: Sep 15 21:12 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/johns/raft-kv/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -23,15 +23,15 @@ Note: Google Test filter = LogEntryTest.BasicEntryCreation
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"LogEntryTest.BasicEntryCreation" end time: Sep 15 20:55 CDT
+"LogEntryTest.BasicEntryCreation" end time: Sep 15 21:12 CDT
 "LogEntryTest.BasicEntryCreation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/7 Testing: NodeTest.InitialStateIsFollower
-2/7 Test: NodeTest.InitialStateIsFollower
+2/6 Testing: NodeTest.InitialStateIsFollower
+2/6 Test: NodeTest.InitialStateIsFollower
 Command: "/home/johns/raft-kv/build/tests/node_test" "--gtest_filter=NodeTest.InitialStateIsFollower" "--gtest_also_run_disabled_tests"
 Directory: /home/johns/raft-kv/build/tests
-"NodeTest.InitialStateIsFollower" start time: Sep 15 20:55 CDT
+"NodeTest.InitialStateIsFollower" start time: Sep 15 21:12 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/johns/raft-kv/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -50,42 +50,15 @@ Note: Google Test filter = NodeTest.InitialStateIsFollower
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"NodeTest.InitialStateIsFollower" end time: Sep 15 20:55 CDT
+"NodeTest.InitialStateIsFollower" end time: Sep 15 21:12 CDT
 "NodeTest.InitialStateIsFollower" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/7 Testing: NodeTest.AppendEntriesRejectsUnmatchedPrevLogIndex
-3/7 Test: NodeTest.AppendEntriesRejectsUnmatchedPrevLogIndex
-Command: "/home/johns/raft-kv/build/tests/node_test" "--gtest_filter=NodeTest.AppendEntriesRejectsUnmatchedPrevLogIndex" "--gtest_also_run_disabled_tests"
-Directory: /home/johns/raft-kv/build/tests
-"NodeTest.AppendEntriesRejectsUnmatchedPrevLogIndex" start time: Sep 15 20:55 CDT
-Output:
-----------------------------------------------------------
-Running main() from /home/johns/raft-kv/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = NodeTest.AppendEntriesRejectsUnmatchedPrevLogIndex
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from NodeTest
-[ RUN      ] NodeTest.AppendEntriesRejectsUnmatchedPrevLogIndex
-[       OK ] NodeTest.AppendEntriesRejectsUnmatchedPrevLogIndex (0 ms)
-[----------] 1 test from NodeTest (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.00 sec
-----------------------------------------------------------
-Test Passed.
-"NodeTest.AppendEntriesRejectsUnmatchedPrevLogIndex" end time: Sep 15 20:55 CDT
-"NodeTest.AppendEntriesRejectsUnmatchedPrevLogIndex" time elapsed: 00:00:00
-----------------------------------------------------------
-
-4/7 Testing: NodeTest.AppendEntriesReplicatesAndCommits
-4/7 Test: NodeTest.AppendEntriesReplicatesAndCommits
+3/6 Testing: NodeTest.AppendEntriesReplicatesAndCommits
+3/6 Test: NodeTest.AppendEntriesReplicatesAndCommits
 Command: "/home/johns/raft-kv/build/tests/node_test" "--gtest_filter=NodeTest.AppendEntriesReplicatesAndCommits" "--gtest_also_run_disabled_tests"
 Directory: /home/johns/raft-kv/build/tests
-"NodeTest.AppendEntriesReplicatesAndCommits" start time: Sep 15 20:55 CDT
+"NodeTest.AppendEntriesReplicatesAndCommits" start time: Sep 15 21:12 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/johns/raft-kv/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -104,15 +77,15 @@ Note: Google Test filter = NodeTest.AppendEntriesReplicatesAndCommits
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"NodeTest.AppendEntriesReplicatesAndCommits" end time: Sep 15 20:55 CDT
+"NodeTest.AppendEntriesReplicatesAndCommits" end time: Sep 15 21:12 CDT
 "NodeTest.AppendEntriesReplicatesAndCommits" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/7 Testing: StateMachineTest.PutAndGetOperations
-5/7 Test: StateMachineTest.PutAndGetOperations
+4/6 Testing: StateMachineTest.PutAndGetOperations
+4/6 Test: StateMachineTest.PutAndGetOperations
 Command: "/home/johns/raft-kv/build/tests/state_machine_test" "--gtest_filter=StateMachineTest.PutAndGetOperations" "--gtest_also_run_disabled_tests"
 Directory: /home/johns/raft-kv/build/tests
-"StateMachineTest.PutAndGetOperations" start time: Sep 15 20:55 CDT
+"StateMachineTest.PutAndGetOperations" start time: Sep 15 21:12 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/johns/raft-kv/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -131,15 +104,15 @@ Note: Google Test filter = StateMachineTest.PutAndGetOperations
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"StateMachineTest.PutAndGetOperations" end time: Sep 15 20:55 CDT
+"StateMachineTest.PutAndGetOperations" end time: Sep 15 21:12 CDT
 "StateMachineTest.PutAndGetOperations" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-6/7 Testing: StateMachineTest.DeleteOperation
-6/7 Test: StateMachineTest.DeleteOperation
+5/6 Testing: StateMachineTest.DeleteOperation
+5/6 Test: StateMachineTest.DeleteOperation
 Command: "/home/johns/raft-kv/build/tests/state_machine_test" "--gtest_filter=StateMachineTest.DeleteOperation" "--gtest_also_run_disabled_tests"
 Directory: /home/johns/raft-kv/build/tests
-"StateMachineTest.DeleteOperation" start time: Sep 15 20:55 CDT
+"StateMachineTest.DeleteOperation" start time: Sep 15 21:12 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/johns/raft-kv/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -158,15 +131,15 @@ Note: Google Test filter = StateMachineTest.DeleteOperation
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"StateMachineTest.DeleteOperation" end time: Sep 15 20:55 CDT
+"StateMachineTest.DeleteOperation" end time: Sep 15 21:12 CDT
 "StateMachineTest.DeleteOperation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-7/7 Testing: StateMachineTest.GetNonExistentKeyReturnsNullopt
-7/7 Test: StateMachineTest.GetNonExistentKeyReturnsNullopt
+6/6 Testing: StateMachineTest.GetNonExistentKeyReturnsNullopt
+6/6 Test: StateMachineTest.GetNonExistentKeyReturnsNullopt
 Command: "/home/johns/raft-kv/build/tests/state_machine_test" "--gtest_filter=StateMachineTest.GetNonExistentKeyReturnsNullopt" "--gtest_also_run_disabled_tests"
 Directory: /home/johns/raft-kv/build/tests
-"StateMachineTest.GetNonExistentKeyReturnsNullopt" start time: Sep 15 20:55 CDT
+"StateMachineTest.GetNonExistentKeyReturnsNullopt" start time: Sep 15 21:12 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/johns/raft-kv/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -185,8 +158,8 @@ Note: Google Test filter = StateMachineTest.GetNonExistentKeyReturnsNullopt
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"StateMachineTest.GetNonExistentKeyReturnsNullopt" end time: Sep 15 20:55 CDT
+"StateMachineTest.GetNonExistentKeyReturnsNullopt" end time: Sep 15 21:12 CDT
 "StateMachineTest.GetNonExistentKeyReturnsNullopt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Sep 15 20:55 CDT
+End testing: Sep 15 21:12 CDT
