@@ -8,10 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/johns/raft-kv/src/cluster.cpp" "CMakeFiles/raft_core.dir/src/cluster.cpp.o" "gcc" "CMakeFiles/raft_core.dir/src/cluster.cpp.o.d"
-  "/home/johns/raft-kv/src/node.cpp" "CMakeFiles/raft_core.dir/src/node.cpp.o" "gcc" "CMakeFiles/raft_core.dir/src/node.cpp.o.d"
-  "/home/johns/raft-kv/src/state_machine.cpp" "CMakeFiles/raft_core.dir/src/state_machine.cpp.o" "gcc" "CMakeFiles/raft_core.dir/src/state_machine.cpp.o.d"
-  "/home/johns/raft-kv/src/transport.cpp" "CMakeFiles/raft_core.dir/src/transport.cpp.o" "gcc" "CMakeFiles/raft_core.dir/src/transport.cpp.o.d"
+  "/home/johns/raft-kv/tests/cluster_test.cpp" "tests/CMakeFiles/cluster_test.dir/cluster_test.cpp.o" "gcc" "tests/CMakeFiles/cluster_test.dir/cluster_test.cpp.o.d"
+  "" "tests/cluster_test" "gcc" "tests/CMakeFiles/cluster_test.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

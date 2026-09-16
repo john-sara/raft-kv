@@ -288,6 +288,43 @@ transport_test/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/transport_test.dir/build.make tests/CMakeFiles/transport_test.dir/build
 .PHONY : transport_test/fast
 
+#=============================================================================
+# Target rules for targets named cluster_test
+
+# Build rule for target.
+cluster_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cluster_test
+.PHONY : cluster_test
+
+# fast build rule for target.
+cluster_test/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/cluster_test.dir/build.make tests/CMakeFiles/cluster_test.dir/build
+.PHONY : cluster_test/fast
+
+src/cluster.o: src/cluster.cpp.o
+.PHONY : src/cluster.o
+
+# target to build an object file
+src/cluster.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_core.dir/build.make CMakeFiles/raft_core.dir/src/cluster.cpp.o
+.PHONY : src/cluster.cpp.o
+
+src/cluster.i: src/cluster.cpp.i
+.PHONY : src/cluster.i
+
+# target to preprocess a source file
+src/cluster.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_core.dir/build.make CMakeFiles/raft_core.dir/src/cluster.cpp.i
+.PHONY : src/cluster.cpp.i
+
+src/cluster.s: src/cluster.cpp.s
+.PHONY : src/cluster.s
+
+# target to generate assembly for a file
+src/cluster.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_core.dir/build.make CMakeFiles/raft_core.dir/src/cluster.cpp.s
+.PHONY : src/cluster.cpp.s
+
 src/node.o: src/node.cpp.o
 .PHONY : src/node.o
 
@@ -373,6 +410,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... cluster_test"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"
@@ -382,6 +420,9 @@ help:
 	@echo "... raft_core"
 	@echo "... state_machine_test"
 	@echo "... transport_test"
+	@echo "... src/cluster.o"
+	@echo "... src/cluster.i"
+	@echo "... src/cluster.s"
 	@echo "... src/node.o"
 	@echo "... src/node.i"
 	@echo "... src/node.s"

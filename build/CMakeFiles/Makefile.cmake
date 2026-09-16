@@ -102,4 +102,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "tests/CMakeFiles/node_test.dir/DependInfo.cmake"
   "tests/CMakeFiles/state_machine_test.dir/DependInfo.cmake"
   "tests/CMakeFiles/transport_test.dir/DependInfo.cmake"
+  "tests/CMakeFiles/cluster_test.dir/DependInfo.cmake"
   )

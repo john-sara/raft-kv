@@ -1,7 +1,7 @@
 Start testing: Sep 15 21:14 CDT
 ----------------------------------------------------------
-1/7 Testing: LogEntryTest.BasicEntryCreation
-1/7 Test: LogEntryTest.BasicEntryCreation
+1/9 Testing: LogEntryTest.BasicEntryCreation
+1/9 Test: LogEntryTest.BasicEntryCreation
 Command: "/home/johns/raft-kv/build/tests/log_entry_test" "--gtest_filter=LogEntryTest.BasicEntryCreation" "--gtest_also_run_disabled_tests"
 Directory: /home/johns/raft-kv/build/tests
 "LogEntryTest.BasicEntryCreation" start time: Sep 15 21:14 CDT
@@ -27,8 +27,8 @@ Test Passed.
 "LogEntryTest.BasicEntryCreation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/7 Testing: NodeTest.InitialStateIsFollower
-2/7 Test: NodeTest.InitialStateIsFollower
+2/9 Testing: NodeTest.InitialStateIsFollower
+2/9 Test: NodeTest.InitialStateIsFollower
 Command: "/home/johns/raft-kv/build/tests/node_test" "--gtest_filter=NodeTest.InitialStateIsFollower" "--gtest_also_run_disabled_tests"
 Directory: /home/johns/raft-kv/build/tests
 "NodeTest.InitialStateIsFollower" start time: Sep 15 21:14 CDT
@@ -54,8 +54,8 @@ Test Passed.
 "NodeTest.InitialStateIsFollower" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/7 Testing: NodeTest.AppendEntriesReplicatesAndCommits
-3/7 Test: NodeTest.AppendEntriesReplicatesAndCommits
+3/9 Testing: NodeTest.AppendEntriesReplicatesAndCommits
+3/9 Test: NodeTest.AppendEntriesReplicatesAndCommits
 Command: "/home/johns/raft-kv/build/tests/node_test" "--gtest_filter=NodeTest.AppendEntriesReplicatesAndCommits" "--gtest_also_run_disabled_tests"
 Directory: /home/johns/raft-kv/build/tests
 "NodeTest.AppendEntriesReplicatesAndCommits" start time: Sep 15 21:14 CDT
@@ -81,8 +81,8 @@ Test Passed.
 "NodeTest.AppendEntriesReplicatesAndCommits" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/7 Testing: StateMachineTest.PutAndGetOperations
-4/7 Test: StateMachineTest.PutAndGetOperations
+4/9 Testing: StateMachineTest.PutAndGetOperations
+4/9 Test: StateMachineTest.PutAndGetOperations
 Command: "/home/johns/raft-kv/build/tests/state_machine_test" "--gtest_filter=StateMachineTest.PutAndGetOperations" "--gtest_also_run_disabled_tests"
 Directory: /home/johns/raft-kv/build/tests
 "StateMachineTest.PutAndGetOperations" start time: Sep 15 21:14 CDT
@@ -108,8 +108,8 @@ Test Passed.
 "StateMachineTest.PutAndGetOperations" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/7 Testing: StateMachineTest.DeleteOperation
-5/7 Test: StateMachineTest.DeleteOperation
+5/9 Testing: StateMachineTest.DeleteOperation
+5/9 Test: StateMachineTest.DeleteOperation
 Command: "/home/johns/raft-kv/build/tests/state_machine_test" "--gtest_filter=StateMachineTest.DeleteOperation" "--gtest_also_run_disabled_tests"
 Directory: /home/johns/raft-kv/build/tests
 "StateMachineTest.DeleteOperation" start time: Sep 15 21:14 CDT
@@ -135,8 +135,8 @@ Test Passed.
 "StateMachineTest.DeleteOperation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-6/7 Testing: StateMachineTest.GetNonExistentKeyReturnsNullopt
-6/7 Test: StateMachineTest.GetNonExistentKeyReturnsNullopt
+6/9 Testing: StateMachineTest.GetNonExistentKeyReturnsNullopt
+6/9 Test: StateMachineTest.GetNonExistentKeyReturnsNullopt
 Command: "/home/johns/raft-kv/build/tests/state_machine_test" "--gtest_filter=StateMachineTest.GetNonExistentKeyReturnsNullopt" "--gtest_also_run_disabled_tests"
 Directory: /home/johns/raft-kv/build/tests
 "StateMachineTest.GetNonExistentKeyReturnsNullopt" start time: Sep 15 21:14 CDT
@@ -162,8 +162,8 @@ Test Passed.
 "StateMachineTest.GetNonExistentKeyReturnsNullopt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-7/7 Testing: TransportTest.NodeRoutingAndRPCCommunication
-7/7 Test: TransportTest.NodeRoutingAndRPCCommunication
+7/9 Testing: TransportTest.NodeRoutingAndRPCCommunication
+7/9 Test: TransportTest.NodeRoutingAndRPCCommunication
 Command: "/home/johns/raft-kv/build/tests/transport_test" "--gtest_filter=TransportTest.NodeRoutingAndRPCCommunication" "--gtest_also_run_disabled_tests"
 Directory: /home/johns/raft-kv/build/tests
 "TransportTest.NodeRoutingAndRPCCommunication" start time: Sep 15 21:14 CDT
@@ -187,6 +187,60 @@ Test time =   0.00 sec
 Test Passed.
 "TransportTest.NodeRoutingAndRPCCommunication" end time: Sep 15 21:14 CDT
 "TransportTest.NodeRoutingAndRPCCommunication" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/9 Testing: ClusterTest.ClusterInitialization
+8/9 Test: ClusterTest.ClusterInitialization
+Command: "/home/johns/raft-kv/build/tests/cluster_test" "--gtest_filter=ClusterTest.ClusterInitialization" "--gtest_also_run_disabled_tests"
+Directory: /home/johns/raft-kv/build/tests
+"ClusterTest.ClusterInitialization" start time: Sep 15 21:14 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/johns/raft-kv/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ClusterTest.ClusterInitialization
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ClusterTest
+[ RUN      ] ClusterTest.ClusterInitialization
+[       OK ] ClusterTest.ClusterInitialization (0 ms)
+[----------] 1 test from ClusterTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ClusterTest.ClusterInitialization" end time: Sep 15 21:14 CDT
+"ClusterTest.ClusterInitialization" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/9 Testing: ClusterTest.ElectionReachesMajorityQuorum
+9/9 Test: ClusterTest.ElectionReachesMajorityQuorum
+Command: "/home/johns/raft-kv/build/tests/cluster_test" "--gtest_filter=ClusterTest.ElectionReachesMajorityQuorum" "--gtest_also_run_disabled_tests"
+Directory: /home/johns/raft-kv/build/tests
+"ClusterTest.ElectionReachesMajorityQuorum" start time: Sep 15 21:14 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/johns/raft-kv/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ClusterTest.ElectionReachesMajorityQuorum
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ClusterTest
+[ RUN      ] ClusterTest.ElectionReachesMajorityQuorum
+[       OK ] ClusterTest.ElectionReachesMajorityQuorum (0 ms)
+[----------] 1 test from ClusterTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ClusterTest.ElectionReachesMajorityQuorum" end time: Sep 15 21:14 CDT
+"ClusterTest.ElectionReachesMajorityQuorum" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 End testing: Sep 15 21:14 CDT

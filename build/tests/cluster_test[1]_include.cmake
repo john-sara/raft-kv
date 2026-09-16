@@ -1,0 +1,5 @@
+if(EXISTS "/home/johns/raft-kv/build/tests/cluster_test[1]_tests.cmake")
+  include("/home/johns/raft-kv/build/tests/cluster_test[1]_tests.cmake")
+else()
+  add_test(cluster_test_NOT_BUILT cluster_test_NOT_BUILT)
+endif()

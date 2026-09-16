@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -Wl,--dependency-file=CMakeFiles/cluster_test.dir/link.d CMakeFiles/cluster_test.dir/cluster_test.cpp.o -o cluster_test  ../libraft_core.a ../lib/libgtest_main.a ../lib/libgtest.a

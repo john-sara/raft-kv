@@ -227,6 +227,44 @@ transport_test/fast:
 	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/transport_test.dir/build.make tests/CMakeFiles/transport_test.dir/build
 .PHONY : transport_test/fast
 
+# Convenience name for target.
+tests/CMakeFiles/cluster_test.dir/rule:
+	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/cluster_test.dir/rule
+.PHONY : tests/CMakeFiles/cluster_test.dir/rule
+
+# Convenience name for target.
+cluster_test: tests/CMakeFiles/cluster_test.dir/rule
+.PHONY : cluster_test
+
+# fast build rule for target.
+cluster_test/fast:
+	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/cluster_test.dir/build.make tests/CMakeFiles/cluster_test.dir/build
+.PHONY : cluster_test/fast
+
+cluster_test.o: cluster_test.cpp.o
+.PHONY : cluster_test.o
+
+# target to build an object file
+cluster_test.cpp.o:
+	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/cluster_test.dir/build.make tests/CMakeFiles/cluster_test.dir/cluster_test.cpp.o
+.PHONY : cluster_test.cpp.o
+
+cluster_test.i: cluster_test.cpp.i
+.PHONY : cluster_test.i
+
+# target to preprocess a source file
+cluster_test.cpp.i:
+	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/cluster_test.dir/build.make tests/CMakeFiles/cluster_test.dir/cluster_test.cpp.i
+.PHONY : cluster_test.cpp.i
+
+cluster_test.s: cluster_test.cpp.s
+.PHONY : cluster_test.s
+
+# target to generate assembly for a file
+cluster_test.cpp.s:
+	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/cluster_test.dir/build.make tests/CMakeFiles/cluster_test.dir/cluster_test.cpp.s
+.PHONY : cluster_test.cpp.s
+
 log_entry_test.o: log_entry_test.cpp.o
 .PHONY : log_entry_test.o
 
@@ -336,10 +374,14 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... cluster_test"
 	@echo "... log_entry_test"
 	@echo "... node_test"
 	@echo "... state_machine_test"
 	@echo "... transport_test"
+	@echo "... cluster_test.o"
+	@echo "... cluster_test.i"
+	@echo "... cluster_test.s"
 	@echo "... log_entry_test.o"
 	@echo "... log_entry_test.i"
 	@echo "... log_entry_test.s"

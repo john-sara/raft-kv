@@ -1,0 +1,22 @@
+{
+  "tests": 2,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "ClusterTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "ClusterInitialization",
+          "file": "\/home\/johns\/raft-kv\/tests\/cluster_test.cpp",
+          "line": 4
+        },
+        {
+          "name": "ElectionReachesMajorityQuorum",
+          "file": "\/home\/johns\/raft-kv\/tests\/cluster_test.cpp",
+          "line": 12
+        }
+      ]
+    }
+  ]
+}

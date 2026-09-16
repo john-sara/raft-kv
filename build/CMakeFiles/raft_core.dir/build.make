@@ -114,11 +114,26 @@ CMakeFiles/raft_core.dir/src/transport.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/raft_core.dir/src/transport.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/johns/raft-kv/src/transport.cpp -o CMakeFiles/raft_core.dir/src/transport.cpp.s
 
+CMakeFiles/raft_core.dir/src/cluster.cpp.o: CMakeFiles/raft_core.dir/flags.make
+CMakeFiles/raft_core.dir/src/cluster.cpp.o: /home/johns/raft-kv/src/cluster.cpp
+CMakeFiles/raft_core.dir/src/cluster.cpp.o: CMakeFiles/raft_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/johns/raft-kv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/raft_core.dir/src/cluster.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raft_core.dir/src/cluster.cpp.o -MF CMakeFiles/raft_core.dir/src/cluster.cpp.o.d -o CMakeFiles/raft_core.dir/src/cluster.cpp.o -c /home/johns/raft-kv/src/cluster.cpp
+
+CMakeFiles/raft_core.dir/src/cluster.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/raft_core.dir/src/cluster.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/johns/raft-kv/src/cluster.cpp > CMakeFiles/raft_core.dir/src/cluster.cpp.i
+
+CMakeFiles/raft_core.dir/src/cluster.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/raft_core.dir/src/cluster.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/johns/raft-kv/src/cluster.cpp -o CMakeFiles/raft_core.dir/src/cluster.cpp.s
+
 # Object files for target raft_core
 raft_core_OBJECTS = \
 "CMakeFiles/raft_core.dir/src/node.cpp.o" \
 "CMakeFiles/raft_core.dir/src/state_machine.cpp.o" \
-"CMakeFiles/raft_core.dir/src/transport.cpp.o"
+"CMakeFiles/raft_core.dir/src/transport.cpp.o" \
+"CMakeFiles/raft_core.dir/src/cluster.cpp.o"
 
 # External object files for target raft_core
 raft_core_EXTERNAL_OBJECTS =
@@ -126,9 +141,10 @@ raft_core_EXTERNAL_OBJECTS =
 libraft_core.a: CMakeFiles/raft_core.dir/src/node.cpp.o
 libraft_core.a: CMakeFiles/raft_core.dir/src/state_machine.cpp.o
 libraft_core.a: CMakeFiles/raft_core.dir/src/transport.cpp.o
+libraft_core.a: CMakeFiles/raft_core.dir/src/cluster.cpp.o
 libraft_core.a: CMakeFiles/raft_core.dir/build.make
 libraft_core.a: CMakeFiles/raft_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/johns/raft-kv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libraft_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/johns/raft-kv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libraft_core.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/raft_core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/raft_core.dir/link.txt --verbose=$(VERBOSE)
 

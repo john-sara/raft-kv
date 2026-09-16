@@ -1,14 +1,16 @@
-LogEntryTest.BasicEntryCreation 9 0.000237589
+LogEntryTest.BasicEntryCreation 10 0.00023727
 node_test_NOT_BUILT 0 0
-NodeTest.InitialStateIsFollower 5 0.00032144
+NodeTest.InitialStateIsFollower 6 0.000298217
 NodeTest.ElectionTimeoutTransitionsToCandidate 1 0.0016186
 NodeTest.GrantVoteOnValidTerm 1 0.0020118
 NodeTest.AppendEntriesAcceptsValidLeaderHeartbeat 1 0.0022863
 NodeTest.AppendEntriesRejectsStaleLeader 1 0.0017994
 NodeTest.AppendEntriesRejectsUnmatchedPrevLogIndex 2 0.0011124
-NodeTest.AppendEntriesReplicatesAndCommits 4 0.00039005
-StateMachineTest.PutAndGetOperations 3 0.000677267
-StateMachineTest.DeleteOperation 3 0.000694133
-StateMachineTest.GetNonExistentKeyReturnsNullopt 3 0.0006457
-TransportTest.NodeRoutingAndRPCCommunication 1 0.0024491
+NodeTest.AppendEntriesReplicatesAndCommits 5 0.00037156
+StateMachineTest.PutAndGetOperations 4 0.00078625
+StateMachineTest.DeleteOperation 4 0.00047665
+StateMachineTest.GetNonExistentKeyReturnsNullopt 4 0.000515025
+TransportTest.NodeRoutingAndRPCCommunication 2 0.0011369
+ClusterTest.ClusterInitialization 1 0.0021061
+ClusterTest.ElectionReachesMajorityQuorum 1 0.0019606
 ---

@@ -1,0 +1,5 @@
+add_test([=[ClusterTest.ClusterInitialization]=]  /home/johns/raft-kv/build/tests/cluster_test [==[--gtest_filter=ClusterTest.ClusterInitialization]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[ClusterTest.ClusterInitialization]=]  PROPERTIES DEF_SOURCE_LINE /home/johns/raft-kv/tests/cluster_test.cpp:4 WORKING_DIRECTORY /home/johns/raft-kv/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[ClusterTest.ElectionReachesMajorityQuorum]=]  /home/johns/raft-kv/build/tests/cluster_test [==[--gtest_filter=ClusterTest.ElectionReachesMajorityQuorum]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[ClusterTest.ElectionReachesMajorityQuorum]=]  PROPERTIES DEF_SOURCE_LINE /home/johns/raft-kv/tests/cluster_test.cpp:12 WORKING_DIRECTORY /home/johns/raft-kv/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  cluster_test_TESTS ClusterTest.ClusterInitialization ClusterTest.ElectionReachesMajorityQuorum)
