@@ -1,0 +1,37 @@
+{
+  "tests": 5,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "NodeTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "InitialStateIsFollower",
+          "file": "\/home\/johns\/raft-kv\/tests\/node_test.cpp",
+          "line": 4
+        },
+        {
+          "name": "ElectionTimeoutTransitionsToCandidate",
+          "file": "\/home\/johns\/raft-kv\/tests\/node_test.cpp",
+          "line": 10
+        },
+        {
+          "name": "GrantVoteOnValidTerm",
+          "file": "\/home\/johns\/raft-kv\/tests\/node_test.cpp",
+          "line": 19
+        },
+        {
+          "name": "AppendEntriesAcceptsValidLeaderHeartbeat",
+          "file": "\/home\/johns\/raft-kv\/tests\/node_test.cpp",
+          "line": 33
+        },
+        {
+          "name": "AppendEntriesRejectsStaleLeader",
+          "file": "\/home\/johns\/raft-kv\/tests\/node_test.cpp",
+          "line": 52
+        }
+      ]
+    }
+  ]
+}

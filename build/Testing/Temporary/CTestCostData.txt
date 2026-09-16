@@ -1,4 +1,8 @@
-LogEntryTest.BasicEntryCreation 4 0.00090485
+LogEntryTest.BasicEntryCreation 5 0.00050644
 node_test_NOT_BUILT 0 0
+NodeTest.InitialStateIsFollower 1 0.0015718
+NodeTest.ElectionTimeoutTransitionsToCandidate 1 0.0016186
+NodeTest.GrantVoteOnValidTerm 1 0.0020118
+NodeTest.AppendEntriesAcceptsValidLeaderHeartbeat 1 0.0022863
+NodeTest.AppendEntriesRejectsStaleLeader 1 0.0017994
 ---
-node_test_NOT_BUILT

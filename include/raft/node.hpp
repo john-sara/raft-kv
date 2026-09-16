@@ -32,7 +32,7 @@ private:
 
     mutable std::mutex nodeMutex_;
     mutable std::mt19937 rng_;
-    std::uniform_int_distribution<int> timeoutDist_{150, 300};
+    mutable std::uniform_int_distribution<int> timeoutDist_{150, 300};
 };
 
 } // namespace raft
