@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/raft_core.dir/src/node.cpp.o"
   "CMakeFiles/raft_core.dir/src/node.cpp.o.d"
+  "CMakeFiles/raft_core.dir/src/state_machine.cpp.o"
+  "CMakeFiles/raft_core.dir/src/state_machine.cpp.o.d"
   "libraft_core.a"
   "libraft_core.pdb"
 )

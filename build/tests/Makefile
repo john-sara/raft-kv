@@ -199,6 +199,20 @@ node_test/fast:
 	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/node_test.dir/build.make tests/CMakeFiles/node_test.dir/build
 .PHONY : node_test/fast
 
+# Convenience name for target.
+tests/CMakeFiles/state_machine_test.dir/rule:
+	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/state_machine_test.dir/rule
+.PHONY : tests/CMakeFiles/state_machine_test.dir/rule
+
+# Convenience name for target.
+state_machine_test: tests/CMakeFiles/state_machine_test.dir/rule
+.PHONY : state_machine_test
+
+# fast build rule for target.
+state_machine_test/fast:
+	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/state_machine_test.dir/build.make tests/CMakeFiles/state_machine_test.dir/build
+.PHONY : state_machine_test/fast
+
 log_entry_test.o: log_entry_test.cpp.o
 .PHONY : log_entry_test.o
 
@@ -247,6 +261,30 @@ node_test.cpp.s:
 	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/node_test.dir/build.make tests/CMakeFiles/node_test.dir/node_test.cpp.s
 .PHONY : node_test.cpp.s
 
+state_machine_test.o: state_machine_test.cpp.o
+.PHONY : state_machine_test.o
+
+# target to build an object file
+state_machine_test.cpp.o:
+	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/state_machine_test.dir/build.make tests/CMakeFiles/state_machine_test.dir/state_machine_test.cpp.o
+.PHONY : state_machine_test.cpp.o
+
+state_machine_test.i: state_machine_test.cpp.i
+.PHONY : state_machine_test.i
+
+# target to preprocess a source file
+state_machine_test.cpp.i:
+	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/state_machine_test.dir/build.make tests/CMakeFiles/state_machine_test.dir/state_machine_test.cpp.i
+.PHONY : state_machine_test.cpp.i
+
+state_machine_test.s: state_machine_test.cpp.s
+.PHONY : state_machine_test.s
+
+# target to generate assembly for a file
+state_machine_test.cpp.s:
+	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/state_machine_test.dir/build.make tests/CMakeFiles/state_machine_test.dir/state_machine_test.cpp.s
+.PHONY : state_machine_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -262,12 +300,16 @@ help:
 	@echo "... test"
 	@echo "... log_entry_test"
 	@echo "... node_test"
+	@echo "... state_machine_test"
 	@echo "... log_entry_test.o"
 	@echo "... log_entry_test.i"
 	@echo "... log_entry_test.s"
 	@echo "... node_test.o"
 	@echo "... node_test.i"
 	@echo "... node_test.s"
+	@echo "... state_machine_test.o"
+	@echo "... state_machine_test.i"
+	@echo "... state_machine_test.s"
 .PHONY : help
 
 

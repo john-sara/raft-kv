@@ -33,6 +33,7 @@
 /home/johns/raft-kv/build/_deps/googletest-build/googletest/CMakeFiles/install/strip.dir
 /home/johns/raft-kv/build/tests/CMakeFiles/log_entry_test.dir
 /home/johns/raft-kv/build/tests/CMakeFiles/node_test.dir
+/home/johns/raft-kv/build/tests/CMakeFiles/state_machine_test.dir
 /home/johns/raft-kv/build/tests/CMakeFiles/test.dir
 /home/johns/raft-kv/build/tests/CMakeFiles/edit_cache.dir
 /home/johns/raft-kv/build/tests/CMakeFiles/rebuild_cache.dir

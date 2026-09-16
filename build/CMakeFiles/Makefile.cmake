@@ -100,4 +100,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   "tests/CMakeFiles/log_entry_test.dir/DependInfo.cmake"
   "tests/CMakeFiles/node_test.dir/DependInfo.cmake"
+  "tests/CMakeFiles/state_machine_test.dir/DependInfo.cmake"
   )

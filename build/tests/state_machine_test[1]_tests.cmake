@@ -1,0 +1,7 @@
+add_test([=[StateMachineTest.PutAndGetOperations]=]  /home/johns/raft-kv/build/tests/state_machine_test [==[--gtest_filter=StateMachineTest.PutAndGetOperations]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[StateMachineTest.PutAndGetOperations]=]  PROPERTIES DEF_SOURCE_LINE /home/johns/raft-kv/tests/state_machine_test.cpp:4 WORKING_DIRECTORY /home/johns/raft-kv/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[StateMachineTest.DeleteOperation]=]  /home/johns/raft-kv/build/tests/state_machine_test [==[--gtest_filter=StateMachineTest.DeleteOperation]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[StateMachineTest.DeleteOperation]=]  PROPERTIES DEF_SOURCE_LINE /home/johns/raft-kv/tests/state_machine_test.cpp:22 WORKING_DIRECTORY /home/johns/raft-kv/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[StateMachineTest.GetNonExistentKeyReturnsNullopt]=]  /home/johns/raft-kv/build/tests/state_machine_test [==[--gtest_filter=StateMachineTest.GetNonExistentKeyReturnsNullopt]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[StateMachineTest.GetNonExistentKeyReturnsNullopt]=]  PROPERTIES DEF_SOURCE_LINE /home/johns/raft-kv/tests/state_machine_test.cpp:35 WORKING_DIRECTORY /home/johns/raft-kv/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  state_machine_test_TESTS StateMachineTest.PutAndGetOperations StateMachineTest.DeleteOperation StateMachineTest.GetNonExistentKeyReturnsNullopt)

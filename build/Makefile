@@ -262,6 +262,19 @@ node_test/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/node_test.dir/build.make tests/CMakeFiles/node_test.dir/build
 .PHONY : node_test/fast
 
+#=============================================================================
+# Target rules for targets named state_machine_test
+
+# Build rule for target.
+state_machine_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 state_machine_test
+.PHONY : state_machine_test
+
+# fast build rule for target.
+state_machine_test/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/state_machine_test.dir/build.make tests/CMakeFiles/state_machine_test.dir/build
+.PHONY : state_machine_test/fast
+
 src/node.o: src/node.cpp.o
 .PHONY : src/node.o
 
@@ -286,6 +299,30 @@ src/node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_core.dir/build.make CMakeFiles/raft_core.dir/src/node.cpp.s
 .PHONY : src/node.cpp.s
 
+src/state_machine.o: src/state_machine.cpp.o
+.PHONY : src/state_machine.o
+
+# target to build an object file
+src/state_machine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_core.dir/build.make CMakeFiles/raft_core.dir/src/state_machine.cpp.o
+.PHONY : src/state_machine.cpp.o
+
+src/state_machine.i: src/state_machine.cpp.i
+.PHONY : src/state_machine.i
+
+# target to preprocess a source file
+src/state_machine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_core.dir/build.make CMakeFiles/raft_core.dir/src/state_machine.cpp.i
+.PHONY : src/state_machine.cpp.i
+
+src/state_machine.s: src/state_machine.cpp.s
+.PHONY : src/state_machine.s
+
+# target to generate assembly for a file
+src/state_machine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_core.dir/build.make CMakeFiles/raft_core.dir/src/state_machine.cpp.s
+.PHONY : src/state_machine.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -306,9 +343,13 @@ help:
 	@echo "... log_entry_test"
 	@echo "... node_test"
 	@echo "... raft_core"
+	@echo "... state_machine_test"
 	@echo "... src/node.o"
 	@echo "... src/node.i"
 	@echo "... src/node.s"
+	@echo "... src/state_machine.o"
+	@echo "... src/state_machine.i"
+	@echo "... src/state_machine.s"
 .PHONY : help
 
 

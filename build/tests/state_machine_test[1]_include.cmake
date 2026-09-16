@@ -1,0 +1,5 @@
+if(EXISTS "/home/johns/raft-kv/build/tests/state_machine_test[1]_tests.cmake")
+  include("/home/johns/raft-kv/build/tests/state_machine_test[1]_tests.cmake")
+else()
+  add_test(state_machine_test_NOT_BUILT state_machine_test_NOT_BUILT)
+endif()

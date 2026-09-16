@@ -1,0 +1,27 @@
+{
+  "tests": 3,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "StateMachineTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "PutAndGetOperations",
+          "file": "\/home\/johns\/raft-kv\/tests\/state_machine_test.cpp",
+          "line": 4
+        },
+        {
+          "name": "DeleteOperation",
+          "file": "\/home\/johns\/raft-kv\/tests\/state_machine_test.cpp",
+          "line": 22
+        },
+        {
+          "name": "GetNonExistentKeyReturnsNullopt",
+          "file": "\/home\/johns\/raft-kv\/tests\/state_machine_test.cpp",
+          "line": 35
+        }
+      ]
+    }
+  ]
+}

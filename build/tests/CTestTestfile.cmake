@@ -6,3 +6,4 @@
 # testing this directory and lists subdirectories to be tested as well.
 include("/home/johns/raft-kv/build/tests/log_entry_test[1]_include.cmake")
 include("/home/johns/raft-kv/build/tests/node_test[1]_include.cmake")
+include("/home/johns/raft-kv/build/tests/state_machine_test[1]_include.cmake")
