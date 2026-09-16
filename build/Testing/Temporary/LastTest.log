@@ -1,10 +1,10 @@
-Start testing: Sep 15 20:48 CDT
+Start testing: Sep 15 20:50 CDT
 ----------------------------------------------------------
-1/6 Testing: LogEntryTest.BasicEntryCreation
-1/6 Test: LogEntryTest.BasicEntryCreation
+1/4 Testing: LogEntryTest.BasicEntryCreation
+1/4 Test: LogEntryTest.BasicEntryCreation
 Command: "/home/johns/raft-kv/build/tests/log_entry_test" "--gtest_filter=LogEntryTest.BasicEntryCreation" "--gtest_also_run_disabled_tests"
 Directory: /home/johns/raft-kv/build/tests
-"LogEntryTest.BasicEntryCreation" start time: Sep 15 20:48 CDT
+"LogEntryTest.BasicEntryCreation" start time: Sep 15 20:50 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/johns/raft-kv/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -23,15 +23,15 @@ Note: Google Test filter = LogEntryTest.BasicEntryCreation
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"LogEntryTest.BasicEntryCreation" end time: Sep 15 20:48 CDT
+"LogEntryTest.BasicEntryCreation" end time: Sep 15 20:50 CDT
 "LogEntryTest.BasicEntryCreation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/6 Testing: NodeTest.InitialStateIsFollower
-2/6 Test: NodeTest.InitialStateIsFollower
+2/4 Testing: NodeTest.InitialStateIsFollower
+2/4 Test: NodeTest.InitialStateIsFollower
 Command: "/home/johns/raft-kv/build/tests/node_test" "--gtest_filter=NodeTest.InitialStateIsFollower" "--gtest_also_run_disabled_tests"
 Directory: /home/johns/raft-kv/build/tests
-"NodeTest.InitialStateIsFollower" start time: Sep 15 20:48 CDT
+"NodeTest.InitialStateIsFollower" start time: Sep 15 20:50 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/johns/raft-kv/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -50,24 +50,24 @@ Note: Google Test filter = NodeTest.InitialStateIsFollower
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"NodeTest.InitialStateIsFollower" end time: Sep 15 20:48 CDT
+"NodeTest.InitialStateIsFollower" end time: Sep 15 20:50 CDT
 "NodeTest.InitialStateIsFollower" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/6 Testing: NodeTest.ElectionTimeoutTransitionsToCandidate
-3/6 Test: NodeTest.ElectionTimeoutTransitionsToCandidate
-Command: "/home/johns/raft-kv/build/tests/node_test" "--gtest_filter=NodeTest.ElectionTimeoutTransitionsToCandidate" "--gtest_also_run_disabled_tests"
+3/4 Testing: NodeTest.AppendEntriesRejectsUnmatchedPrevLogIndex
+3/4 Test: NodeTest.AppendEntriesRejectsUnmatchedPrevLogIndex
+Command: "/home/johns/raft-kv/build/tests/node_test" "--gtest_filter=NodeTest.AppendEntriesRejectsUnmatchedPrevLogIndex" "--gtest_also_run_disabled_tests"
 Directory: /home/johns/raft-kv/build/tests
-"NodeTest.ElectionTimeoutTransitionsToCandidate" start time: Sep 15 20:48 CDT
+"NodeTest.AppendEntriesRejectsUnmatchedPrevLogIndex" start time: Sep 15 20:50 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/johns/raft-kv/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = NodeTest.ElectionTimeoutTransitionsToCandidate
+Note: Google Test filter = NodeTest.AppendEntriesRejectsUnmatchedPrevLogIndex
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 1 test from NodeTest
-[ RUN      ] NodeTest.ElectionTimeoutTransitionsToCandidate
-[       OK ] NodeTest.ElectionTimeoutTransitionsToCandidate (0 ms)
+[ RUN      ] NodeTest.AppendEntriesRejectsUnmatchedPrevLogIndex
+[       OK ] NodeTest.AppendEntriesRejectsUnmatchedPrevLogIndex (0 ms)
 [----------] 1 test from NodeTest (0 ms total)
 
 [----------] Global test environment tear-down
@@ -77,24 +77,24 @@ Note: Google Test filter = NodeTest.ElectionTimeoutTransitionsToCandidate
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"NodeTest.ElectionTimeoutTransitionsToCandidate" end time: Sep 15 20:48 CDT
-"NodeTest.ElectionTimeoutTransitionsToCandidate" time elapsed: 00:00:00
+"NodeTest.AppendEntriesRejectsUnmatchedPrevLogIndex" end time: Sep 15 20:50 CDT
+"NodeTest.AppendEntriesRejectsUnmatchedPrevLogIndex" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/6 Testing: NodeTest.GrantVoteOnValidTerm
-4/6 Test: NodeTest.GrantVoteOnValidTerm
-Command: "/home/johns/raft-kv/build/tests/node_test" "--gtest_filter=NodeTest.GrantVoteOnValidTerm" "--gtest_also_run_disabled_tests"
+4/4 Testing: NodeTest.AppendEntriesReplicatesAndCommits
+4/4 Test: NodeTest.AppendEntriesReplicatesAndCommits
+Command: "/home/johns/raft-kv/build/tests/node_test" "--gtest_filter=NodeTest.AppendEntriesReplicatesAndCommits" "--gtest_also_run_disabled_tests"
 Directory: /home/johns/raft-kv/build/tests
-"NodeTest.GrantVoteOnValidTerm" start time: Sep 15 20:48 CDT
+"NodeTest.AppendEntriesReplicatesAndCommits" start time: Sep 15 20:50 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/johns/raft-kv/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = NodeTest.GrantVoteOnValidTerm
+Note: Google Test filter = NodeTest.AppendEntriesReplicatesAndCommits
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 1 test from NodeTest
-[ RUN      ] NodeTest.GrantVoteOnValidTerm
-[       OK ] NodeTest.GrantVoteOnValidTerm (0 ms)
+[ RUN      ] NodeTest.AppendEntriesReplicatesAndCommits
+[       OK ] NodeTest.AppendEntriesReplicatesAndCommits (0 ms)
 [----------] 1 test from NodeTest (0 ms total)
 
 [----------] Global test environment tear-down
@@ -104,62 +104,8 @@ Note: Google Test filter = NodeTest.GrantVoteOnValidTerm
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"NodeTest.GrantVoteOnValidTerm" end time: Sep 15 20:48 CDT
-"NodeTest.GrantVoteOnValidTerm" time elapsed: 00:00:00
+"NodeTest.AppendEntriesReplicatesAndCommits" end time: Sep 15 20:50 CDT
+"NodeTest.AppendEntriesReplicatesAndCommits" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/6 Testing: NodeTest.AppendEntriesAcceptsValidLeaderHeartbeat
-5/6 Test: NodeTest.AppendEntriesAcceptsValidLeaderHeartbeat
-Command: "/home/johns/raft-kv/build/tests/node_test" "--gtest_filter=NodeTest.AppendEntriesAcceptsValidLeaderHeartbeat" "--gtest_also_run_disabled_tests"
-Directory: /home/johns/raft-kv/build/tests
-"NodeTest.AppendEntriesAcceptsValidLeaderHeartbeat" start time: Sep 15 20:48 CDT
-Output:
-----------------------------------------------------------
-Running main() from /home/johns/raft-kv/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = NodeTest.AppendEntriesAcceptsValidLeaderHeartbeat
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from NodeTest
-[ RUN      ] NodeTest.AppendEntriesAcceptsValidLeaderHeartbeat
-[       OK ] NodeTest.AppendEntriesAcceptsValidLeaderHeartbeat (0 ms)
-[----------] 1 test from NodeTest (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.00 sec
-----------------------------------------------------------
-Test Passed.
-"NodeTest.AppendEntriesAcceptsValidLeaderHeartbeat" end time: Sep 15 20:48 CDT
-"NodeTest.AppendEntriesAcceptsValidLeaderHeartbeat" time elapsed: 00:00:00
-----------------------------------------------------------
-
-6/6 Testing: NodeTest.AppendEntriesRejectsStaleLeader
-6/6 Test: NodeTest.AppendEntriesRejectsStaleLeader
-Command: "/home/johns/raft-kv/build/tests/node_test" "--gtest_filter=NodeTest.AppendEntriesRejectsStaleLeader" "--gtest_also_run_disabled_tests"
-Directory: /home/johns/raft-kv/build/tests
-"NodeTest.AppendEntriesRejectsStaleLeader" start time: Sep 15 20:48 CDT
-Output:
-----------------------------------------------------------
-Running main() from /home/johns/raft-kv/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = NodeTest.AppendEntriesRejectsStaleLeader
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from NodeTest
-[ RUN      ] NodeTest.AppendEntriesRejectsStaleLeader
-[       OK ] NodeTest.AppendEntriesRejectsStaleLeader (0 ms)
-[----------] 1 test from NodeTest (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.00 sec
-----------------------------------------------------------
-Test Passed.
-"NodeTest.AppendEntriesRejectsStaleLeader" end time: Sep 15 20:48 CDT
-"NodeTest.AppendEntriesRejectsStaleLeader" time elapsed: 00:00:00
-----------------------------------------------------------
-
-End testing: Sep 15 20:48 CDT
+End testing: Sep 15 20:50 CDT

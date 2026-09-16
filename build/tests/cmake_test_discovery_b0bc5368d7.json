@@ -1,10 +1,10 @@
 {
-  "tests": 5,
+  "tests": 3,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "NodeTest",
-      "tests": 5,
+      "tests": 3,
       "testsuite": [
         {
           "name": "InitialStateIsFollower",
@@ -12,24 +12,14 @@
           "line": 4
         },
         {
-          "name": "ElectionTimeoutTransitionsToCandidate",
+          "name": "AppendEntriesRejectsUnmatchedPrevLogIndex",
           "file": "\/home\/johns\/raft-kv\/tests\/node_test.cpp",
-          "line": 10
+          "line": 11
         },
         {
-          "name": "GrantVoteOnValidTerm",
+          "name": "AppendEntriesReplicatesAndCommits",
           "file": "\/home\/johns\/raft-kv\/tests\/node_test.cpp",
-          "line": 19
-        },
-        {
-          "name": "AppendEntriesAcceptsValidLeaderHeartbeat",
-          "file": "\/home\/johns\/raft-kv\/tests\/node_test.cpp",
-          "line": 33
-        },
-        {
-          "name": "AppendEntriesRejectsStaleLeader",
-          "file": "\/home\/johns\/raft-kv\/tests\/node_test.cpp",
-          "line": 52
+          "line": 27
         }
       ]
     }
