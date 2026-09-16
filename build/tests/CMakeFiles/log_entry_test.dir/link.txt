@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -Wl,--dependency-file=CMakeFiles/log_entry_test.dir/link.d CMakeFiles/log_entry_test.dir/log_entry_test.cpp.o -o log_entry_test  ../lib/libgtest_main.a ../lib/libgtest.a

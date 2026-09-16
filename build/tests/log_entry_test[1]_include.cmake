@@ -1,0 +1,5 @@
+if(EXISTS "/home/johns/raft-kv/build/tests/log_entry_test[1]_tests.cmake")
+  include("/home/johns/raft-kv/build/tests/log_entry_test[1]_tests.cmake")
+else()
+  add_test(log_entry_test_NOT_BUILT log_entry_test_NOT_BUILT)
+endif()

@@ -1,0 +1,4 @@
+add_executable(log_entry_test log_entry_test.cpp)
+target_link_libraries(log_entry_test gtest_main)
+include(GoogleTest)
+gtest_discover_tests(log_entry_test)

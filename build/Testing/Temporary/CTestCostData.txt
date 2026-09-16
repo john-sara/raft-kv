@@ -1,0 +1,2 @@
+LogEntryTest.BasicEntryCreation 1 0.0022139
+---

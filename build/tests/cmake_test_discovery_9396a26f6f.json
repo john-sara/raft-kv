@@ -1,0 +1,17 @@
+{
+  "tests": 1,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "LogEntryTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "BasicEntryCreation",
+          "file": "\/home\/johns\/raft-kv\/tests\/log_entry_test.cpp",
+          "line": 4
+        }
+      ]
+    }
+  ]
+}
