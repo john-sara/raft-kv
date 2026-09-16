@@ -15,9 +15,7 @@ A high-performance, thread-safe, distributed consensus key-value store built in 
 ---
 
 ## Architecture Overview
-## Architecture Overview
 
-```text
                   +-----------------------------------+
                   |      Interactive CLI / User       |
                   +-----------------------------------+
@@ -42,6 +40,9 @@ A high-performance, thread-safe, distributed consensus key-value store built in 
             | Network Transport  |    |  Key-Value Engine  |
             | (Simulated RPCs)   |    |  (State Machine)   |
             +--------------------+    +--------------------+
+
+---
+
 ## Quick Start & Usage
 
 ### Prerequisites
@@ -51,21 +52,22 @@ A high-performance, thread-safe, distributed consensus key-value store built in 
 
 ### Build and Run
 
-```bash
-# Clone the repository
-git clone [https://github.com/your-username/raft-kv.git](https://github.com/your-username/raft-kv.git)
-cd raft-kv
+1. Clone the repository:
+   git clone https://github.com/john-sara/raft-kv.git
+   cd raft-kv
 
-# Build project
-mkdir build && cd build
-cmake ..
-make
+2. Build project:
+   mkdir build && cd build
+   cmake ..
+   make
 
-# Run GoogleTest suite
-ctest --output-on-failure
+3. Run GoogleTest suite:
+   ctest --output-on-failure
 
-# Launch Interactive CLI
-./raft_kv_cli
+4. Launch Interactive CLI:
+   ./raft_kv_cli
+
+### CLI Command Example
 
 raft-kv> election 1             # Triggers Node 1 to run for election and collect quorum
 raft-kv> put 1 session_id 99x   # Leader replicates entry across followers
