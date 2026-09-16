@@ -1,0 +1,5 @@
+if(EXISTS "/home/johns/raft-kv/build/tests/node_test[1]_tests.cmake")
+  include("/home/johns/raft-kv/build/tests/node_test[1]_tests.cmake")
+else()
+  add_test(node_test_NOT_BUILT node_test_NOT_BUILT)
+endif()

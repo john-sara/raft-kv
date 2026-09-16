@@ -172,6 +172,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named raft_core
+
+# Build rule for target.
+raft_core: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 raft_core
+.PHONY : raft_core
+
+# fast build rule for target.
+raft_core/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_core.dir/build.make CMakeFiles/raft_core.dir/build
+.PHONY : raft_core/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -236,6 +249,43 @@ log_entry_test/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/log_entry_test.dir/build.make tests/CMakeFiles/log_entry_test.dir/build
 .PHONY : log_entry_test/fast
 
+#=============================================================================
+# Target rules for targets named node_test
+
+# Build rule for target.
+node_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 node_test
+.PHONY : node_test
+
+# fast build rule for target.
+node_test/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/node_test.dir/build.make tests/CMakeFiles/node_test.dir/build
+.PHONY : node_test/fast
+
+src/node.o: src/node.cpp.o
+.PHONY : src/node.o
+
+# target to build an object file
+src/node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_core.dir/build.make CMakeFiles/raft_core.dir/src/node.cpp.o
+.PHONY : src/node.cpp.o
+
+src/node.i: src/node.cpp.i
+.PHONY : src/node.i
+
+# target to preprocess a source file
+src/node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_core.dir/build.make CMakeFiles/raft_core.dir/src/node.cpp.i
+.PHONY : src/node.cpp.i
+
+src/node.s: src/node.cpp.s
+.PHONY : src/node.s
+
+# target to generate assembly for a file
+src/node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_core.dir/build.make CMakeFiles/raft_core.dir/src/node.cpp.s
+.PHONY : src/node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -254,6 +304,11 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... log_entry_test"
+	@echo "... node_test"
+	@echo "... raft_core"
+	@echo "... src/node.o"
+	@echo "... src/node.i"
+	@echo "... src/node.s"
 .PHONY : help
 
 

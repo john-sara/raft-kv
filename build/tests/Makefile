@@ -185,6 +185,20 @@ log_entry_test/fast:
 	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/log_entry_test.dir/build.make tests/CMakeFiles/log_entry_test.dir/build
 .PHONY : log_entry_test/fast
 
+# Convenience name for target.
+tests/CMakeFiles/node_test.dir/rule:
+	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/node_test.dir/rule
+.PHONY : tests/CMakeFiles/node_test.dir/rule
+
+# Convenience name for target.
+node_test: tests/CMakeFiles/node_test.dir/rule
+.PHONY : node_test
+
+# fast build rule for target.
+node_test/fast:
+	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/node_test.dir/build.make tests/CMakeFiles/node_test.dir/build
+.PHONY : node_test/fast
+
 log_entry_test.o: log_entry_test.cpp.o
 .PHONY : log_entry_test.o
 
@@ -209,6 +223,30 @@ log_entry_test.cpp.s:
 	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/log_entry_test.dir/build.make tests/CMakeFiles/log_entry_test.dir/log_entry_test.cpp.s
 .PHONY : log_entry_test.cpp.s
 
+node_test.o: node_test.cpp.o
+.PHONY : node_test.o
+
+# target to build an object file
+node_test.cpp.o:
+	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/node_test.dir/build.make tests/CMakeFiles/node_test.dir/node_test.cpp.o
+.PHONY : node_test.cpp.o
+
+node_test.i: node_test.cpp.i
+.PHONY : node_test.i
+
+# target to preprocess a source file
+node_test.cpp.i:
+	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/node_test.dir/build.make tests/CMakeFiles/node_test.dir/node_test.cpp.i
+.PHONY : node_test.cpp.i
+
+node_test.s: node_test.cpp.s
+.PHONY : node_test.s
+
+# target to generate assembly for a file
+node_test.cpp.s:
+	cd /home/johns/raft-kv/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/node_test.dir/build.make tests/CMakeFiles/node_test.dir/node_test.cpp.s
+.PHONY : node_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -223,9 +261,13 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... log_entry_test"
+	@echo "... node_test"
 	@echo "... log_entry_test.o"
 	@echo "... log_entry_test.i"
 	@echo "... log_entry_test.s"
+	@echo "... node_test.o"
+	@echo "... node_test.i"
+	@echo "... node_test.s"
 .PHONY : help
 
 

@@ -63,11 +63,13 @@ CMAKE_BINARY_DIR = /home/johns/raft-kv/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/raft_core.dir/all
 all: _deps/googletest-build/all
 all: tests/all
 .PHONY : all
 
 # The main recursive "codegen" target.
+codegen: CMakeFiles/raft_core.dir/codegen
 codegen: _deps/googletest-build/codegen
 codegen: tests/codegen
 .PHONY : codegen
@@ -78,6 +80,7 @@ preinstall: tests/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/raft_core.dir/clean
 clean: _deps/googletest-build/clean
 clean: tests/clean
 .PHONY : clean
@@ -153,10 +156,12 @@ _deps/googletest-build/googletest/clean: _deps/googletest-build/googletest/CMake
 
 # Recursive "all" directory target.
 tests/all: tests/CMakeFiles/log_entry_test.dir/all
+tests/all: tests/CMakeFiles/node_test.dir/all
 .PHONY : tests/all
 
 # Recursive "codegen" directory target.
 tests/codegen: tests/CMakeFiles/log_entry_test.dir/codegen
+tests/codegen: tests/CMakeFiles/node_test.dir/codegen
 .PHONY : tests/codegen
 
 # Recursive "preinstall" directory target.
@@ -165,7 +170,40 @@ tests/preinstall:
 
 # Recursive "clean" directory target.
 tests/clean: tests/CMakeFiles/log_entry_test.dir/clean
+tests/clean: tests/CMakeFiles/node_test.dir/clean
 .PHONY : tests/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/raft_core.dir
+
+# All Build rule for target.
+CMakeFiles/raft_core.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_core.dir/build.make CMakeFiles/raft_core.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_core.dir/build.make CMakeFiles/raft_core.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/johns/raft-kv/build/CMakeFiles --progress-num=13,14 "Built target raft_core"
+.PHONY : CMakeFiles/raft_core.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/raft_core.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johns/raft-kv/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/raft_core.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johns/raft-kv/build/CMakeFiles 0
+.PHONY : CMakeFiles/raft_core.dir/rule
+
+# Convenience name for target.
+raft_core: CMakeFiles/raft_core.dir/rule
+.PHONY : raft_core
+
+# codegen rule for target.
+CMakeFiles/raft_core.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_core.dir/build.make CMakeFiles/raft_core.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/johns/raft-kv/build/CMakeFiles --progress-num=13,14 "Finished codegen for target raft_core"
+.PHONY : CMakeFiles/raft_core.dir/codegen
+
+# clean rule for target.
+CMakeFiles/raft_core.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raft_core.dir/build.make CMakeFiles/raft_core.dir/clean
+.PHONY : CMakeFiles/raft_core.dir/clean
 
 #=============================================================================
 # Target rules for target _deps/googletest-build/googlemock/CMakeFiles/gmock.dir
@@ -203,8 +241,8 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/clean:
 # Target rules for target _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/johns/raft-kv/build/CMakeFiles --progress-num=3,4 "Built target gmock_main"
@@ -328,6 +366,40 @@ tests/CMakeFiles/log_entry_test.dir/codegen:
 tests/CMakeFiles/log_entry_test.dir/clean:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/log_entry_test.dir/build.make tests/CMakeFiles/log_entry_test.dir/clean
 .PHONY : tests/CMakeFiles/log_entry_test.dir/clean
+
+#=============================================================================
+# Target rules for target tests/CMakeFiles/node_test.dir
+
+# All Build rule for target.
+tests/CMakeFiles/node_test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+tests/CMakeFiles/node_test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+tests/CMakeFiles/node_test.dir/all: CMakeFiles/raft_core.dir/all
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/node_test.dir/build.make tests/CMakeFiles/node_test.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/node_test.dir/build.make tests/CMakeFiles/node_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/johns/raft-kv/build/CMakeFiles --progress-num=11,12 "Built target node_test"
+.PHONY : tests/CMakeFiles/node_test.dir/all
+
+# Build rule for subdir invocation for target.
+tests/CMakeFiles/node_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johns/raft-kv/build/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/node_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johns/raft-kv/build/CMakeFiles 0
+.PHONY : tests/CMakeFiles/node_test.dir/rule
+
+# Convenience name for target.
+node_test: tests/CMakeFiles/node_test.dir/rule
+.PHONY : node_test
+
+# codegen rule for target.
+tests/CMakeFiles/node_test.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/node_test.dir/build.make tests/CMakeFiles/node_test.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/johns/raft-kv/build/CMakeFiles --progress-num=11,12 "Finished codegen for target node_test"
+.PHONY : tests/CMakeFiles/node_test.dir/codegen
+
+# clean rule for target.
+tests/CMakeFiles/node_test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/node_test.dir/build.make tests/CMakeFiles/node_test.dir/clean
+.PHONY : tests/CMakeFiles/node_test.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

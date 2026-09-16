@@ -15,5 +15,7 @@ FetchContent_MakeAvailable(googletest)
 
 include_directories(include)
 
+add_library(raft_core src/node.cpp)
+
 enable_testing()
 add_subdirectory(tests)
